@@ -1,0 +1,2 @@
+Result category,Result description,Metric,Value,Use in paper,Comparison rule,Interpretation
+Supplementary diagnostic,Best single-fold result,Accuracy,85.35%,May be mentioned only as a supplementary best-fold result,Not used for headline LOSO comparison or SOTA comparison,"Shows the strongest observed fold-level performance, while the main claim remains based on the full repeated LOSO mean."

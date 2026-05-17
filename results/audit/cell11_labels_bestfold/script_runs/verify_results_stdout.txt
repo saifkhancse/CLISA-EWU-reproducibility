@@ -1,0 +1,6 @@
+verify_results.py completed
+Required final tables OK: 9 / 9
+Key value hits: 118
+Key values missing: 0
+Disallowed files found: 0
+Report: C:\Users\Saif\Desktop\CSE400\CLISA-EWU-reproducibility\results\audit\verification\verification_report.md

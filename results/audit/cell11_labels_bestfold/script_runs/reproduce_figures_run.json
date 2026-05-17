@@ -1,0 +1,6 @@
+{
+  "script": "scripts/reproduce_figures.py",
+  "returncode": 0,
+  "stdout": "figures\\paper: 19 PNG files\nfigures\\final_archive: 25 PNG files\nTotal released PNG figures: 44\n",
+  "stderr": ""
+}

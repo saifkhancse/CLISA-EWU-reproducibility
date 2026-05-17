@@ -1,6 +1,6 @@
 # Reproduced manuscript tables
 
-Generated: `2026-05-18_00-06-51`
+Generated: `2026-05-18_00-25-02`
 
 ## Audit table. Optional assets
 
@@ -43,8 +43,8 @@ Source: `results/final_tables/table_5_1_classical_main.csv`
 | M07 | Extra Trees | 6ch | 0.4076 | 0.0977 | 0.4195 | 0.0935 | 0.4338 | 0.4440 | 0.3370 | 0.4155 | 45.000 |
 | M08 | Gradient Boosting | 62ch | 0.4765 | 0.1298 | 0.4821 | 0.1299 | 0.5073 | 0.5080 | 0.4142 | 0.4767 | 45.000 |
 | M08 | Gradient Boosting | 6ch | 0.4152 | 0.0871 | 0.4221 | 0.0859 | 0.4537 | 0.4134 | 0.3784 | 0.4151 | 45.000 |
-| M09 | XGBoost | 62ch | 0.4791 | 0.1321 | 0.4844 | 0.1323 | 0.4933 | 0.5216 | 0.4153 | 0.4862 | 45.000 |
-| M09 | XGBoost | 6ch | 0.4089 | 0.0919 | 0.4162 | 0.0893 | 0.4527 | 0.3969 | 0.3711 | 0.4149 | 45.000 |
+| XGBoost | XGBoost | 62ch | 0.4791 | 0.1321 | 0.4844 | 0.1323 | 0.4933 | 0.5216 | 0.4153 | 0.4862 | 45.000 |
+| XGBoost | XGBoost | 6ch | 0.4089 | 0.0919 | 0.4162 | 0.0893 | 0.4527 | 0.3969 | 0.3711 | 0.4149 | 45.000 |
 | M10 | MLP (sklearn) | 62ch | 0.4790 | 0.1169 | 0.4825 | 0.1161 | 0.5406 | 0.4823 | 0.3949 | 0.4983 | 45.000 |
 | M10 | MLP (sklearn) | 6ch | 0.3978 | 0.0830 | 0.4116 | 0.0816 | 0.4173 | 0.4142 | 0.3313 | 0.4282 | 45.000 |
 
@@ -72,12 +72,12 @@ Source: `results/final_tables/table_5_2_deep_main.csv`
 | M18 | ChanDrop Transformer | 6ch | 45.000 | 0.3908 | 0.0626 | 0.3828 | 0.0635 | 0.3977 | 0.0628 | 0.3905 | 0.0635 |
 | M19 | DANN | 62ch | 45.000 | 0.4584 | 0.1133 | 0.4547 | 0.1155 | 0.6619 | 0.0915 | 0.6543 | 0.0954 |
 | M19 | DANN | 6ch | 45.000 | 0.3964 | 0.0920 | 0.3863 | 0.0917 | 0.5904 | 0.0731 | 0.5795 | 0.0791 |
-| M20 | CLISA | 62ch | 45.000 | 0.4845 | 0.1175 | 0.4797 | 0.1198 | 0.6801 | 0.0901 | 0.6742 | 0.0931 |
-| M20 | CLISA | 6ch | 45.000 | 0.4055 | 0.0749 | 0.3979 | 0.0761 | 0.6199 | 0.0744 | 0.6114 | 0.0770 |
+| CLISA-EWU | CLISA | 62ch | 45.000 | 0.4845 | 0.1175 | 0.4797 | 0.1198 | 0.6801 | 0.0901 | 0.6742 | 0.0931 |
+| CLISA-EWU | CLISA | 6ch | 45.000 | 0.4055 | 0.0749 | 0.3979 | 0.0761 | 0.6199 | 0.0744 | 0.6114 | 0.0770 |
 | M21 | SimCLR | 62ch | 45.000 | 0.4114 | 0.0935 | 0.4059 | 0.0955 | 0.5745 | 0.0848 | 0.5568 | 0.0896 |
 | M21 | SimCLR | 6ch | 45.000 | 0.4465 | 0.1067 | 0.4405 | 0.1092 | 0.6020 | 0.0972 | 0.5822 | 0.1084 |
-| M22 | BYOL | 62ch | 45.000 | 0.4308 | 0.0977 | 0.4225 | 0.1059 | 0.6089 | 0.0906 | 0.5944 | 0.0978 |
-| M22 | BYOL | 6ch | 45.000 | 0.4403 | 0.1038 | 0.4328 | 0.1043 | 0.6124 | 0.0928 | 0.5977 | 0.0974 |
+| BYOL | BYOL | 62ch | 45.000 | 0.4308 | 0.0977 | 0.4225 | 0.1059 | 0.6089 | 0.0906 | 0.5944 | 0.0978 |
+| BYOL | BYOL | 6ch | 45.000 | 0.4403 | 0.1038 | 0.4328 | 0.1043 | 0.6124 | 0.0928 | 0.5977 | 0.0974 |
 | M23 | PseudoLabel | 62ch | 45.000 | 0.4682 | 0.1153 | 0.4656 | 0.1168 | 0.6574 | 0.0856 | 0.6538 | 0.0854 |
 | M23 | PseudoLabel | 6ch | 45.000 | 0.4047 | 0.0947 | 0.3943 | 0.0952 | 0.6102 | 0.0843 | 0.5999 | 0.0888 |
 | M24 | MixMatch | 62ch | 45.000 | 0.2853 | 0.0787 | 0.2429 | 0.0812 | 0.5350 | 0.1018 | 0.5217 | 0.1094 |
@@ -89,14 +89,14 @@ Source: `results/final_tables/table_5_3_dance_loso_verified.csv`
 
 | model id | name | ch | n runs | acc a mean | acc a std | f1 a mean | f1 a std | acc b mean | acc b std | f1 b mean | f1 b std | mean best val f1 | mean elapsed |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| M25 | DANCE Teacher | 62ch | 45.000 | 0.4193 | 0.0934 | 0.4077 | 0.0943 | 0.5190 | 0.0914 | 0.5026 | 0.0973 | 0.5866 | 2009.9 |
-| M26 | DANCE Student | 6ch | 45.000 | 0.3901 | 0.0740 | 0.3775 | 0.0745 | 0.5706 | 0.0873 | 0.5412 | 0.1009 | 0.7102 | 264.0 |
+| DANCE Teacher | DANCE Teacher | 62ch | 45.000 | 0.4193 | 0.0934 | 0.4077 | 0.0943 | 0.5190 | 0.0914 | 0.5026 | 0.0973 | 0.5866 | 2009.9 |
+| DANCE Student | DANCE Student | 6ch | 45.000 | 0.3901 | 0.0740 | 0.3775 | 0.0745 | 0.5706 | 0.0873 | 0.5412 | 0.1009 | 0.7102 | 264.0 |
 
 ## Table 5.3b. DANCE reproduction/caution table
 
 Source: `results/final_tables/table_5_3b_dance_reproduction.csv`
 
-| variant | model | acc a | acc b | ref acc b | delta vs ref b |
+| variant | model | acc a | balanced accuracy (AccB) | ref acc b | delta vs ref b |
 | --- | --- | --- | --- | --- | --- |
 | E00 | Teacher | 0.4436 | 0.6170 | 0.5913 | 0.0257 |
 | H17 | Teacher | 0.4576 | 0.6080 | 0.5913 | 0.0167 |
@@ -145,18 +145,18 @@ Source: `results/final_tables/table_5_5_proto_gain.csv`
 | M18 | ChanDrop Transformer | 6ch | 0.0069 | 0.0076 |
 | M19 | DANN | 62ch | 0.2035 | 0.1995 |
 | M19 | DANN | 6ch | 0.1940 | 0.1931 |
-| M20 | CLISA | 62ch | 0.1956 | 0.1945 |
-| M20 | CLISA | 6ch | 0.2145 | 0.2135 |
+| CLISA-EWU | CLISA | 62ch | 0.1956 | 0.1945 |
+| CLISA-EWU | CLISA | 6ch | 0.2145 | 0.2135 |
 | M21 | SimCLR | 62ch | 0.1631 | 0.1509 |
 | M21 | SimCLR | 6ch | 0.1555 | 0.1417 |
-| M22 | BYOL | 62ch | 0.1781 | 0.1719 |
-| M22 | BYOL | 6ch | 0.1721 | 0.1649 |
+| BYOL | BYOL | 62ch | 0.1781 | 0.1719 |
+| BYOL | BYOL | 6ch | 0.1721 | 0.1649 |
 | M23 | PseudoLabel | 62ch | 0.1892 | 0.1882 |
 | M23 | PseudoLabel | 6ch | 0.2055 | 0.2055 |
 | M24 | MixMatch | 62ch | 0.2497 | 0.2788 |
 | M24 | MixMatch | 6ch | 0.0939 | 0.1080 |
-| M25 | DANCE Teacher | 62ch | 0.0997 | 0.0950 |
-| M26 | DANCE Student | 6ch | 0.1805 | 0.1637 |
+| DANCE Teacher | DANCE Teacher | 62ch | 0.0997 | 0.0950 |
+| DANCE Student | DANCE Student | 6ch | 0.1805 | 0.1637 |
 
 ## Table 5.6. Channel-efficiency retention
 
@@ -172,7 +172,7 @@ Source: `results/final_tables/table_5_6_channel_efficiency.csv`
 | M06 | Naive Bayes | 0.3791 | 0.3759 | 0.9916 | classical |  |
 | M07 | Extra Trees | 0.4717 | 0.4076 | 0.8641 | classical |  |
 | M08 | Gradient Boosting | 0.4765 | 0.4152 | 0.8714 | classical |  |
-| M09 | XGBoost | 0.4791 | 0.4089 | 0.8535 | classical |  |
+| XGBoost | XGBoost | 0.4791 | 0.4089 | 0.8535 | classical |  |
 | M10 | MLP (sklearn) | 0.4790 | 0.3978 | 0.8305 | classical |  |
 | M11 | Shallow MLP | 0.4961 | 0.4118 | 0.8301 | deep |  |
 | M12 | Deep MLP | 0.4921 | 0.4005 | 0.8139 | deep |  |
@@ -183,12 +183,12 @@ Source: `results/final_tables/table_5_6_channel_efficiency.csv`
 | M17 | EEG Conformer | 0.4594 | 0.3608 | 0.7854 | deep |  |
 | M18 | ChanDrop Transformer | 0.4315 | 0.3977 | 0.9217 | deep |  |
 | M19 | DANN | 0.6619 | 0.5904 | 0.8920 | deep |  |
-| M20 | CLISA | 0.6801 | 0.6199 | 0.9116 | deep |  |
+| CLISA-EWU | CLISA | 0.6801 | 0.6199 | 0.9116 | deep |  |
 | M21 | SimCLR | 0.5745 | 0.6020 | 1.048 | deep |  |
-| M22 | BYOL | 0.6089 | 0.6124 | 1.006 | deep |  |
+| BYOL | BYOL | 0.6089 | 0.6124 | 1.006 | deep |  |
 | M23 | PseudoLabel | 0.6574 | 0.6102 | 0.9282 | deep |  |
 | M24 | MixMatch | 0.5350 | 0.3642 | 0.6808 | deep |  |
-| M25->M26 | DANCE Teacher->Student | 0.5190 | 0.5706 | 1.100 | dance | True |
+| DANCE Teacher->DANCE Student | DANCE Teacher->Student | 0.5190 | 0.5706 | 1.100 | dance | True |
 
 ## Table 5.7. Per-class top-model comparison
 
@@ -212,8 +212,8 @@ Source: `results/final_tables/table_5_7_per_class_top_models.csv`
 | M07 | Extra Trees | 6ch | classical_summary | 0.4338 | 0.4440 | 0.3370 | 0.4155 |
 | M08 | Gradient Boosting | 62ch | classical_summary | 0.5073 | 0.5080 | 0.4142 | 0.4767 |
 | M08 | Gradient Boosting | 6ch | classical_summary | 0.4537 | 0.4134 | 0.3784 | 0.4151 |
-| M09 | XGBoost | 62ch | classical_summary | 0.4933 | 0.5216 | 0.4153 | 0.4862 |
-| M09 | XGBoost | 6ch | classical_summary | 0.4527 | 0.3969 | 0.3711 | 0.4149 |
+| XGBoost | XGBoost | 62ch | classical_summary | 0.4933 | 0.5216 | 0.4153 | 0.4862 |
+| XGBoost | XGBoost | 6ch | classical_summary | 0.4527 | 0.3969 | 0.3711 | 0.4149 |
 | M10 | MLP (sklearn) | 62ch | classical_summary | 0.5406 | 0.4823 | 0.3949 | 0.4983 |
 | M10 | MLP (sklearn) | 6ch | classical_summary | 0.4173 | 0.4142 | 0.3313 | 0.4282 |
 

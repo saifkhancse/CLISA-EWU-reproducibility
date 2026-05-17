@@ -1,5 +1,5 @@
 exists,group,path,size_bytes,status
-True,required_repo_files,README.md,3676,OK
+True,required_repo_files,README.md,4349,OK
 True,required_repo_files,.gitignore,777,OK
 True,required_repo_files,requirements.txt,110,OK
 True,required_repo_files,environment.yml,276,OK
@@ -7,7 +7,7 @@ True,required_repo_files,LICENSE,1533,OK
 True,required_repo_files,CITATION.cff,690,OK
 True,required_repo_files,docs/dataset_access.md,1183,OK
 True,required_repo_files,docs/checkpoint_policy.md,757,OK
-True,required_repo_files,docs/reproducibility_notes.md,1023,OK
+True,required_repo_files,docs/reproducibility_notes.md,1033,OK
 True,required_repo_files,data_splits/seediv_loso_folds.json,4262,OK
 True,required_repo_files,data_splits/seeds_1_7_21.json,148,OK
 True,required_repo_files,data_splits/channel_indices_seediv_62_to_6.json,650,OK
@@ -16,12 +16,12 @@ True,required_repo_files,configs/faced_processing_contract.json,824,OK
 True,required_repo_files,scripts/verify_results.py,15365,OK
 True,required_repo_files,scripts/reproduce_tables.py,7326,OK
 True,required_repo_files,scripts/generate_data_splits.py,3482,OK
-True,required_final_tables,results/final_tables/table_5_1_classical_main.csv,1678,OK
-True,required_final_tables,results/final_tables/table_5_2_deep_main.csv,5060,OK
-True,required_final_tables,results/final_tables/table_5_3_dance_loso_verified.csv,571,OK
-True,required_final_tables,results/final_tables/table_5_3b_dance_reproduction.csv,365,OK
+True,required_final_tables,results/final_tables/table_5_1_classical_main.csv,1686,OK
+True,required_final_tables,results/final_tables/table_5_2_deep_main.csv,4872,OK
+True,required_final_tables,results/final_tables/table_5_3_dance_loso_verified.csv,560,OK
+True,required_final_tables,results/final_tables/table_5_3b_dance_reproduction.csv,381,OK
 True,required_final_tables,results/final_tables/table_5_4_ablations.csv,1805,OK
-True,required_final_tables,results/final_tables/table_5_5_proto_gain.csv,1840,OK
-True,required_final_tables,results/final_tables/table_5_6_channel_efficiency.csv,1868,OK
-True,required_final_tables,results/final_tables/table_5_7_per_class_top_models.csv,1396,OK
+True,required_final_tables,results/final_tables/table_5_5_proto_gain.csv,1757,OK
+True,required_final_tables,results/final_tables/table_5_6_channel_efficiency.csv,1940,OK
+True,required_final_tables,results/final_tables/table_5_7_per_class_top_models.csv,1404,OK
 True,required_final_tables,results/final_tables/table_audit_sources.csv,469,OK

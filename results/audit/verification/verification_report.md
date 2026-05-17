@@ -1,12 +1,12 @@
 # CLISA-EWU repository verification report
 
-Generated: `2026-05-18_00-06-51`
+Generated: `2026-05-18_00-25-02`
 
 ## Summary
 
 - Required final tables OK: **9 / 9**
-- CSV files scanned: **103**
-- Key value hits: **115**
+- CSV files scanned: **111**
+- Key value hits: **118**
 - Key values missing from staged CSVs: **0**
 - Disallowed data/checkpoint files found in staged repo: **0**
 

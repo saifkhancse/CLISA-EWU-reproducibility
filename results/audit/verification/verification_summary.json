@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-18_00-06-51",
+  "timestamp": "2026-05-18_00-25-02",
   "root": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility",
   "required_tables_total": 9,
   "required_tables_ok": 9,
-  "csv_files_scanned": 103,
-  "key_term_hits_total": 9778,
+  "csv_files_scanned": 111,
+  "key_term_hits_total": 10276,
   "key_term_hits_saved_sample": 500,
-  "key_value_hits": 115,
+  "key_value_hits": 118,
   "key_values_missing": 0,
   "ablation_check": {
     "file": "results/final_tables/table_5_4_ablations.csv",

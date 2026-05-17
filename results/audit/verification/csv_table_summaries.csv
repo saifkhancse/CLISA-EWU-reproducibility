@@ -68,15 +68,22 @@ internal; kind; match; path; severity,5,,results/audit/cell09_public_release_san
 internal; kind; match; path; severity,5,,results/audit/cell09_public_release_sanitization/placeholder_hits_after_sanitization.csv,184,OK
 returncode; script; stderr; stdout,4,,results/audit/cell09_public_release_sanitization/script_runs_after_sanitization.csv,7,OK
 internal; path; size_bytes,3,,results/audit/cell09_public_release_sanitization/text_files_scanned.csv,213,OK
+empty,1,,results/audit/cell10_final_cleanup/disallowed_files_final.csv,0,OK
+empty,1,,results/audit/cell10_final_cleanup/large_files_final.csv,0,OK
+empty,1,,results/audit/cell10_final_cleanup/public_local_path_hits_final.csv,0,OK
+empty,1,,results/audit/cell10_final_cleanup/public_placeholder_hits_final.csv,0,OK
+path; size_bytes,2,,results/audit/cell10_final_cleanup/public_text_files_scanned.csv,110,OK
+returncode; script; stderr; stdout,4,,results/audit/cell10_final_cleanup/script_runs_final.csv,7,OK
 empty,1,,results/audit/repository_readiness/disallowed_file_check.csv,0,OK
 error; path; status,3,,results/audit/repository_readiness/json_validity_check.csv,5,OK
 exists; group; path; size_bytes; status,5,,results/audit/repository_readiness/required_files_check.csv,26,OK
 source_relative_path; repo_relative_path; reason; status; size_bytes; size_human,6,,results/audit/staging_manifest_cell03.csv,138,OK
-column_names; columns; error; file; rows; status,6,,results/audit/verification/csv_table_summaries.csv,98,OK
+column_names; columns; error; file; rows; status,6,,results/audit/verification/csv_table_summaries.csv,103,OK
 columns; contains_0_5190; contains_0_6170; file; note; rows; status,7,,results/audit/verification/dance_table_check.csv,4,OK
 empty,1,,results/audit/verification/disallowed_large_or_data_files.csv,0,OK
 dtype; file; note; shape; status,5,,results/audit/verification/faced_shape_check.csv,1,OK
-found_in; key_claim; value,3,,results/audit/verification/key_value_hits.csv,122,OK
+file; matched_term; row_index; row_text,4,,results/audit/verification/key_term_hits_sample.csv,500,OK
+found_in; key_claim; value,3,,results/audit/verification/key_value_hits.csv,115,OK
 empty,1,,results/audit/verification/key_value_missing.csv,0,OK
 columns; error; exists; required_file; rows; status,6,,results/audit/verification/required_final_tables_check.csv,9,OK
 type; path; size_kb,3,,results/final_tables/audit_discovered_optional_assets.csv,2,OK
@@ -84,7 +91,7 @@ model; model_mean; m25_mean; t_stat; p_value; significant; n_paired,7,,results/f
 model_id; name; ch; F1_mean; F1_std; Acc_mean; Acc_std; f1_neutral; f1_sad; f1_fear; f1_happy; n_runs,12,,results/final_tables/table_5_1_classical_main.csv,20,OK
 model_id; name; ch; n_runs; acc_a_mean; acc_a_std; f1_a_mean; f1_a_std; acc_b_mean; acc_b_std; f1_b_mean; f1_b_std,12,,results/final_tables/table_5_2_deep_main.csv,28,OK
 model_id; name; ch; n_runs; acc_a_mean; acc_a_std; f1_a_mean; f1_a_std; acc_b_mean; acc_b_std; f1_b_mean; f1_b_std; mean_best_val_f1; mean_elapsed,14,,results/final_tables/table_5_3_dance_loso_verified.csv,2,OK
-variant; model; acc_a; acc_b; ref_acc_b; delta_vs_ref_b,6,,results/final_tables/table_5_3b_dance_reproduction.csv,4,OK
+variant; model; acc_a; Balanced accuracy (AccB); ref_acc_b; delta_vs_ref_b,6,,results/final_tables/table_5_3b_dance_reproduction.csv,4,OK
 ablation; acc_A_mean; acc_A_std; f1_A_mean; f1_A_std; acc_B_mean; acc_B_std; f1_B_mean; f1_B_std,9,,results/final_tables/table_5_4_ablations.csv,11,OK
 model_id; name; ch; delta_acc; delta_f1,5,,results/final_tables/table_5_5_proto_gain.csv,30,OK
 model_id; name; primary_62; primary_6; retention_primary; family; paired_distillation,7,,results/final_tables/table_5_6_channel_efficiency.csv,25,OK
@@ -96,9 +103,10 @@ source_file; reproduced_csv; reproduced_md; rows; columns; status; title,7,,resu
 model id; name; ch; F1 mean; F1 std; Acc mean; Acc std; f1 neutral; f1 sad; f1 fear; f1 happy; n runs,12,,results/reproduced_tables/table_5_1_classical_main.normalized.csv,20,OK
 model id; name; ch; n runs; acc a mean; acc a std; f1 a mean; f1 a std; acc b mean; acc b std; f1 b mean; f1 b std,12,,results/reproduced_tables/table_5_2_deep_main.normalized.csv,28,OK
 model id; name; ch; n runs; acc a mean; acc a std; f1 a mean; f1 a std; acc b mean; acc b std; f1 b mean; f1 b std; mean best val f1; mean elapsed,14,,results/reproduced_tables/table_5_3_dance_loso_verified.normalized.csv,2,OK
-variant; model; acc a; acc b; ref acc b; delta vs ref b,6,,results/reproduced_tables/table_5_3b_dance_reproduction.normalized.csv,4,OK
+variant; model; acc a; Balanced accuracy (AccB); ref acc b; delta vs ref b,6,,results/reproduced_tables/table_5_3b_dance_reproduction.normalized.csv,4,OK
 ablation; acc A mean; acc A std; f1 A mean; f1 A std; acc B mean; acc B std; f1 B mean; f1 B std,9,,results/reproduced_tables/table_5_4_ablations.normalized.csv,11,OK
 model id; name; ch; delta acc; delta f1,5,,results/reproduced_tables/table_5_5_proto_gain.normalized.csv,30,OK
 model id; name; primary 62; primary 6; retention primary; family; paired distillation,7,,results/reproduced_tables/table_5_6_channel_efficiency.normalized.csv,25,OK
 model id; name; ch; source; f1 neutral; f1 sad; f1 fear; f1 happy,8,,results/reproduced_tables/table_5_7_per_class_top_models.normalized.csv,20,OK
 output; source; role; status,4,,results/reproduced_tables/table_audit_sources.normalized.csv,8,OK
+Result category; Result description; Metric; Value; Use in paper; Comparison rule; Interpretation,7,,results/supplementary/supplementary_best_fold_result.csv,1,OK

@@ -12,7 +12,7 @@ Source file: `results/final_tables/table_5_6_channel_efficiency.csv`
 | M06 | Naive Bayes | 0.3791 | 0.3759 | 0.9916 | classical |  |
 | M07 | Extra Trees | 0.4717 | 0.4076 | 0.8641 | classical |  |
 | M08 | Gradient Boosting | 0.4765 | 0.4152 | 0.8714 | classical |  |
-| M09 | XGBoost | 0.4791 | 0.4089 | 0.8535 | classical |  |
+| XGBoost | XGBoost | 0.4791 | 0.4089 | 0.8535 | classical |  |
 | M10 | MLP (sklearn) | 0.4790 | 0.3978 | 0.8305 | classical |  |
 | M11 | Shallow MLP | 0.4961 | 0.4118 | 0.8301 | deep |  |
 | M12 | Deep MLP | 0.4921 | 0.4005 | 0.8139 | deep |  |
@@ -23,9 +23,9 @@ Source file: `results/final_tables/table_5_6_channel_efficiency.csv`
 | M17 | EEG Conformer | 0.4594 | 0.3608 | 0.7854 | deep |  |
 | M18 | ChanDrop Transformer | 0.4315 | 0.3977 | 0.9217 | deep |  |
 | M19 | DANN | 0.6619 | 0.5904 | 0.8920 | deep |  |
-| M20 | CLISA | 0.6801 | 0.6199 | 0.9116 | deep |  |
+| CLISA-EWU | CLISA | 0.6801 | 0.6199 | 0.9116 | deep |  |
 | M21 | SimCLR | 0.5745 | 0.6020 | 1.048 | deep |  |
-| M22 | BYOL | 0.6089 | 0.6124 | 1.006 | deep |  |
+| BYOL | BYOL | 0.6089 | 0.6124 | 1.006 | deep |  |
 | M23 | PseudoLabel | 0.6574 | 0.6102 | 0.9282 | deep |  |
 | M24 | MixMatch | 0.5350 | 0.3642 | 0.6808 | deep |  |
-| M25->M26 | DANCE Teacher->Student | 0.5190 | 0.5706 | 1.100 | dance | True |
+| DANCE Teacher->DANCE Student | DANCE Teacher->Student | 0.5190 | 0.5706 | 1.100 | dance | True |

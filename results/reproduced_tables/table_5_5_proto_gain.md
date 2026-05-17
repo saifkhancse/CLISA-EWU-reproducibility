@@ -22,15 +22,15 @@ Source file: `results/final_tables/table_5_5_proto_gain.csv`
 | M18 | ChanDrop Transformer | 6ch | 0.0069 | 0.0076 |
 | M19 | DANN | 62ch | 0.2035 | 0.1995 |
 | M19 | DANN | 6ch | 0.1940 | 0.1931 |
-| M20 | CLISA | 62ch | 0.1956 | 0.1945 |
-| M20 | CLISA | 6ch | 0.2145 | 0.2135 |
+| CLISA-EWU | CLISA | 62ch | 0.1956 | 0.1945 |
+| CLISA-EWU | CLISA | 6ch | 0.2145 | 0.2135 |
 | M21 | SimCLR | 62ch | 0.1631 | 0.1509 |
 | M21 | SimCLR | 6ch | 0.1555 | 0.1417 |
-| M22 | BYOL | 62ch | 0.1781 | 0.1719 |
-| M22 | BYOL | 6ch | 0.1721 | 0.1649 |
+| BYOL | BYOL | 62ch | 0.1781 | 0.1719 |
+| BYOL | BYOL | 6ch | 0.1721 | 0.1649 |
 | M23 | PseudoLabel | 62ch | 0.1892 | 0.1882 |
 | M23 | PseudoLabel | 6ch | 0.2055 | 0.2055 |
 | M24 | MixMatch | 62ch | 0.2497 | 0.2788 |
 | M24 | MixMatch | 6ch | 0.0939 | 0.1080 |
-| M25 | DANCE Teacher | 62ch | 0.0997 | 0.0950 |
-| M26 | DANCE Student | 6ch | 0.1805 | 0.1637 |
+| DANCE Teacher | DANCE Teacher | 62ch | 0.0997 | 0.0950 |
+| DANCE Student | DANCE Student | 6ch | 0.1805 | 0.1637 |

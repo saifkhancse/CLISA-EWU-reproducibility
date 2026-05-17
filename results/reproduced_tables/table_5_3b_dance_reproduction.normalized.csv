@@ -1,5 +1,5 @@
-variant,model,acc a,acc b,ref acc b,delta vs ref b
-E00,Teacher,0.4436,0.6170,0.5913,0.0257
-H17,Teacher,0.4576,0.6080,0.5913,0.0167
+variant,model,acc a,balanced accuracy (AccB),ref acc b,delta vs ref b
+E00,Teacher,0.4436,0.617,0.5913,0.0257
+H17,Teacher,0.4576,0.608,0.5913,0.0167
 E00,Student,0.3866,0.5406,0.6918,-0.1512
 H17,Student,0.3964,0.5444,0.6918,-0.1474

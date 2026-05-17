@@ -20,7 +20,7 @@ Source file: `results/final_tables/table_5_7_per_class_top_models.csv`
 | M07 | Extra Trees | 6ch | classical_summary | 0.4338 | 0.4440 | 0.3370 | 0.4155 |
 | M08 | Gradient Boosting | 62ch | classical_summary | 0.5073 | 0.5080 | 0.4142 | 0.4767 |
 | M08 | Gradient Boosting | 6ch | classical_summary | 0.4537 | 0.4134 | 0.3784 | 0.4151 |
-| M09 | XGBoost | 62ch | classical_summary | 0.4933 | 0.5216 | 0.4153 | 0.4862 |
-| M09 | XGBoost | 6ch | classical_summary | 0.4527 | 0.3969 | 0.3711 | 0.4149 |
+| XGBoost | XGBoost | 62ch | classical_summary | 0.4933 | 0.5216 | 0.4153 | 0.4862 |
+| XGBoost | XGBoost | 6ch | classical_summary | 0.4527 | 0.3969 | 0.3711 | 0.4149 |
 | M10 | MLP (sklearn) | 62ch | classical_summary | 0.5406 | 0.4823 | 0.3949 | 0.4983 |
 | M10 | MLP (sklearn) | 6ch | classical_summary | 0.4173 | 0.4142 | 0.3313 | 0.4282 |

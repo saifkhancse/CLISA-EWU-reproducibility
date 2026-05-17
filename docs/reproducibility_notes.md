@@ -20,7 +20,7 @@ This staging folder currently contains provenance notebooks and result artifacts
 
 ## Values requiring caution
 
-- DANCE/M25 final LOSO value should be reported carefully because internal audit detected mismatch.
+- DANCE/DANCE Teacher final LOSO value should be reported carefully because internal audit detected mismatch.
 - FACED should be used as domain-gap analysis unless the full FACED benchmark is completed and verified.
 - GraphFormer results should be treated as exploratory unless full non-smoke-test runs are verified.
 - Ablation table currently has 11 verified rows in the final audit, not 14.

@@ -29,5 +29,5 @@ The staging manifest is stored at:
 3. Add real preprocessing scripts.
 4. Add LOSO split files.
 5. Add exact dependency versions.
-6. Reconcile DANCE/M25 value before final manuscript claim.
+6. Reconcile DANCE/DANCE Teacher value before final manuscript claim.
 7. Decide whether to publish checkpoints externally.

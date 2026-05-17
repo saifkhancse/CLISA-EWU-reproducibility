@@ -28,16 +28,24 @@ The original SEED-IV and FACED datasets are not redistributed in this repository
 
 Large model checkpoints are not committed directly. If checkpoints are released later, they should be hosted through GitHub Releases, Zenodo, OSF, or another persistent artifact host with checksums.
 
+## Metric definitions
+
+balanced accuracy (AccB) means balanced accuracy, defined as the average of class-wise recall values. It is used as the primary robustness-oriented accuracy metric in the result tables.
+
+Accuracy means standard overall accuracy.
+
+Macro-F1 means the unweighted average of class-wise F1 scores.
+
 ## Expected key results
 
 | Model / setting | Metric |
 |---|---:|
-| CLISA-EWU, SEED-IV 62-channel | AccB about 0.6801 |
-| CLISA-EWU, SEED-IV six-channel | AccB about 0.6199 |
-| BYOL M22, 62-channel | AccB about 0.6089 |
-| BYOL M22, six-channel | AccB about 0.6124 |
+| CLISA-EWU, SEED-IV 62-channel | balanced accuracy (AccB) about 0.6801 |
+| CLISA-EWU, SEED-IV six-channel | balanced accuracy (AccB) about 0.6199 |
+| BYOL BYOL, 62-channel | balanced accuracy (AccB) about 0.6089 |
+| BYOL BYOL, six-channel | balanced accuracy (AccB) about 0.6124 |
 
-DANCE/M25 values require careful reporting because internal sources show a mismatch. DANCE should not be used as the primary contribution claim unless the final leave-one-subject-out value is reconciled.
+DANCE/DANCE Teacher values require careful reporting because internal sources show a mismatch. DANCE should not be used as the primary contribution claim unless the final leave-one-subject-out value is reconciled.
 
 ## Repository structure
 
@@ -70,11 +78,15 @@ python scripts/evaluate_loso.py
 
 The repository has passed internal public-release checks for required repository files, JSON split/config validity, final table presence, reproduced table generation, key result value detection, absence of raw data/checkpoint files, and absence of public local absolute paths.
 
+## Supplementary best-fold result
+
+The best single-fold diagnostic result reached 85.35% accuracy. This result is reported only as supplementary evidence and is not used for headline mean leave-one-subject-out comparison or SOTA comparison.
+
 ## Scientific cautions
 
 1. The ablation table currently contains 11 verified rows. Do not claim 14 verified ablation rows unless the missing rows are checkpoint-verified.
 2. FACED is used through the processed 30-channel differential-entropy feature representation observed in the project audit.
-3. DANCE/M25 values should be reported cautiously unless the final leave-one-subject-out source is reconciled.
+3. DANCE/DANCE Teacher values should be reported cautiously unless the final leave-one-subject-out source is reconciled.
 4. Raw SEED-IV and FACED datasets are not redistributed.
 
 ## License

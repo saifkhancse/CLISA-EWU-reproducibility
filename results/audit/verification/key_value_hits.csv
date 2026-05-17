@@ -79,6 +79,9 @@ results/audit/cell02_csv_schemas.csv,DANCE_possible_LOSO_value_caution_0.5190,0.
 results/audit/cell02_csv_schemas.csv,DANCE_M25_mismatch_caution_0.0236,0.0236
 results/audit/cell08_final_journal_neutrality/text_files_scanned.csv,DANCE_M25_mismatch_caution_0.0236,0.0236
 results/audit/staging_manifest_cell03.csv,DANCE_M25_mismatch_caution_0.0236,0.0236
+results/audit/verification/key_term_hits_sample.csv,CLISA_EWU_62ch_AccB_expected_0.6801,0.6801
+results/audit/verification/key_term_hits_sample.csv,CLISA_EWU_6ch_AccB_expected_0.6199,0.6199
+results/audit/verification/key_term_hits_sample.csv,DANCE_M25_mismatch_caution_0.0236,0.0236
 results/audit/verification/key_value_hits.csv,CLISA_EWU_62ch_AccB_expected_0.6801,0.6801
 results/audit/verification/key_value_hits.csv,CLISA_EWU_6ch_AccB_expected_0.6199,0.6199
 results/audit/verification/key_value_hits.csv,BYOL_M22_62ch_AccB_expected_0.6089,0.6089

@@ -2,7 +2,7 @@
 
 Source file: `results/final_tables/table_5_3b_dance_reproduction.csv`
 
-| variant | model | acc a | acc b | ref acc b | delta vs ref b |
+| variant | model | acc a | balanced accuracy (AccB) | ref acc b | delta vs ref b |
 | --- | --- | --- | --- | --- | --- |
 | E00 | Teacher | 0.4436 | 0.6170 | 0.5913 | 0.0257 |
 | H17 | Teacher | 0.4576 | 0.6080 | 0.5913 | 0.0167 |
