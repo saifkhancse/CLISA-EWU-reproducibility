@@ -1,3 +1,0 @@
-figures\paper: 19 PNG files
-figures\final_archive: 25 PNG files
-Total released PNG figures: 44

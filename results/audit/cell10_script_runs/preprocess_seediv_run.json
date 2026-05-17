@@ -1,6 +1,0 @@
-{
-  "script": "scripts/preprocess_seediv.py",
-  "returncode": 0,
-  "stdout": "SEED-IV preprocessing requires official dataset access.\nSee docs/dataset_access.md and data_splits/ for expected metadata.\n",
-  "stderr": ""
-}

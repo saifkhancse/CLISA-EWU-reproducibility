@@ -1,6 +1,0 @@
-{
-  "script": "scripts/evaluate_loso.py",
-  "returncode": 0,
-  "stdout": "LOSO evaluation requires official dataset access and local feature generation.\nUse scripts/verify_results.py and scripts/reproduce_tables.py to reproduce released tables.\n",
-  "stderr": ""
-}

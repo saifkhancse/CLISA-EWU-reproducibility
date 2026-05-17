@@ -1,6 +1,0 @@
-{
-  "script": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\scripts\\generate_data_splits.py",
-  "returncode": 0,
-  "stdout": "Data split/config files generated.\nOutput: C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\data_splits\nOutput: C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\configs\n",
-  "stderr": ""
-}

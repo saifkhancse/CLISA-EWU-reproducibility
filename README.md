@@ -22,6 +22,22 @@ The repository provides result tables, figures, configuration files, split defin
 - `scripts/`: scripts for table reproduction, result verification, and repository checks.
 - `notebooks/provenance/`: original analysis notebooks retained for traceability.
 
+## Provenance notebooks
+
+The executed notebooks in `notebooks/provenance/` are limited to notebooks that directly support the paper results and tables.
+
+The main experiment notebook is:
+
+`05_clisa_ewu_main_experiments.ipynb`
+
+The final table-verification notebook is:
+
+`07_final_results_rebuild_verified.ipynb`
+
+A notebook index is provided in:
+
+`docs/notebook_index.md`
+
 ## Datasets
 
 The original SEED-IV and FACED datasets are not included in this repository. Users should obtain them from the official dataset providers.

@@ -1,6 +1,0 @@
-verify_repository.py completed
-Required files OK: 26 / 26
-JSON files OK: 5 / 5
-Disallowed files found: 0
-Basic GitHub ready: True
-Report: C:\Users\Saif\Desktop\CSE400\CLISA-EWU-reproducibility\results\audit\repository_readiness\repository_readiness_report.md

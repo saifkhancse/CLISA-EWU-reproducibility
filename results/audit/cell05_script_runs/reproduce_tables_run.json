@@ -1,6 +1,0 @@
-{
-  "script": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\scripts\\reproduce_tables.py",
-  "returncode": 0,
-  "stdout": "reproduce_tables.py completed\nTables found: 11\nTables reproduced OK: 0\nOutput: C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\results\\reproduced_tables\n",
-  "stderr": ""
-}
