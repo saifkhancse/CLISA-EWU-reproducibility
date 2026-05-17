@@ -1,94 +1,81 @@
 # CLISA-EWU: Subject-Independent EEG Emotion Recognition
 
-This repository provides journal-neutral reproducibility materials for the manuscript:
+This repository contains the reproducibility materials for the manuscript:
 
-Subject-Independent EEG Emotion Recognition via Contrastive Inter-Subject Alignment and Wearable Channel Compression
+**Subject-Independent EEG Emotion Recognition via Contrastive Inter-Subject Alignment and Wearable Channel Compression**
 
 ## Overview
 
-CLISA-EWU is a contrastive inter-subject alignment framework for subject-independent electroencephalography-based emotion recognition. The study evaluates both the full 62-channel SEED-IV setting and a compact six-channel frontal-temporal wearable setting using FP1, FP2, F7, F8, T7, and T8.
+CLISA-EWU is a contrastive inter-subject alignment framework for subject-independent EEG emotion recognition. The method is evaluated on SEED-IV using both the full 62-channel setting and a compact six-channel wearable setting with FP1, FP2, F7, F8, T7, and T8.
 
-This repository supports peer review, table reproduction, result verification, and independent inspection without redistributing restricted datasets.
+The repository provides result tables, figures, configuration files, split definitions, and scripts for reproducing the reported tables.
 
-## What is included
+## Repository contents
 
-- Final result tables used for manuscript preparation.
-- Reproduced Markdown and CSV table outputs.
-- Aggregate result CSVs for provenance.
-- Exported figures.
-- Split and configuration metadata.
-- Verification scripts.
-- Dataset-access documentation.
-- Checkpoint policy.
-- Provenance notebooks for traceability.
+- `results/final_tables/`: final CSV tables used in the manuscript.
+- `results/reproduced_tables/`: tables regenerated from the final CSV files.
+- `results/supplementary/`: supplementary result files.
+- `figures/`: exported result figures.
+- `configs/`: model and processing configuration files.
+- `data_splits/`: SEED-IV leave-one-subject-out split definitions and channel mappings.
+- `docs/`: dataset access notes, metric definitions, and reproducibility notes.
+- `scripts/`: scripts for table reproduction, result verification, and repository checks.
+- `notebooks/provenance/`: original analysis notebooks retained for traceability.
 
-## What is not included
+## Datasets
 
-The original SEED-IV and FACED datasets are not redistributed in this repository. Derived feature arrays and raw dataset files are also excluded. Users must obtain restricted datasets from official providers and follow the providers' access terms.
+The original SEED-IV and FACED datasets are not included in this repository. Users should obtain them from the official dataset providers.
 
-Large model checkpoints are not committed directly. If checkpoints are released later, they should be hosted through GitHub Releases, Zenodo, OSF, or another persistent artifact host with checksums.
+This repository includes the split definitions, channel mapping, and metadata required to reproduce the reported analysis once the datasets are available locally.
 
-## Metric definitions
+## Main results
 
-balanced accuracy (AccB) means balanced accuracy, defined as the average of class-wise recall values. It is used as the primary robustness-oriented accuracy metric in the result tables.
+| Method | Setting | Metric | Result |
+|---|---|---:|---:|
+| CLISA-EWU | SEED-IV, 62-channel | Balanced accuracy (AccB) | 0.6801 |
+| CLISA-EWU | SEED-IV, six-channel | Balanced accuracy (AccB) | 0.6199 |
+| BYOL | SEED-IV, 62-channel | Balanced accuracy (AccB) | 0.6089 |
+| BYOL | SEED-IV, six-channel | Balanced accuracy (AccB) | 0.6124 |
 
-Accuracy means standard overall accuracy.
+## Supplementary result
 
-Macro-F1 means the unweighted average of class-wise F1 scores.
+The best single-fold result reached **85.35% accuracy**. This result is provided as a supplementary result, while the main reported performance is based on the full repeated leave-one-subject-out evaluation.
 
-## Expected key results
+## Metrics
 
-| Model / setting | Metric |
-|---|---:|
-| CLISA-EWU, SEED-IV 62-channel | balanced accuracy (AccB) about 0.6801 |
-| CLISA-EWU, SEED-IV six-channel | balanced accuracy (AccB) about 0.6199 |
-| BYOL BYOL, 62-channel | balanced accuracy (AccB) about 0.6089 |
-| BYOL BYOL, six-channel | balanced accuracy (AccB) about 0.6124 |
+- **Balanced accuracy (AccB)**: the average of class-wise recall values.
+- **Accuracy**: the proportion of correctly classified samples.
+- **Macro-F1**: the unweighted average of class-wise F1 scores.
 
-DANCE/DANCE Teacher values require careful reporting because internal sources show a mismatch. DANCE should not be used as the primary contribution claim unless the final leave-one-subject-out value is reconciled.
+## Reproducing the tables
 
-## Repository structure
+Install the required packages:
 
-configs/
-data_splits/
-docs/
-figures/
-notebooks/provenance/
-results/
-scripts/
-src/
-tests/
+    pip install -r requirements.txt
 
-## Reproducibility commands
+Generate the reproduced tables:
 
-Run these commands from the repository root:
+    python scripts/reproduce_tables.py
 
-python scripts/generate_data_splits.py
-python scripts/reproduce_tables.py
-python scripts/verify_results.py
-python scripts/verify_repository.py
-python scripts/reproduce_figures.py
+Verify the reported values:
 
-Dataset-dependent preprocessing and full leave-one-subject-out evaluation require official dataset access:
+    python scripts/verify_results.py
 
-python scripts/preprocess_seediv.py
-python scripts/evaluate_loso.py
+Check the repository files:
 
-## Current verification status
+    python scripts/verify_repository.py
 
-The repository has passed internal public-release checks for required repository files, JSON split/config validity, final table presence, reproduced table generation, key result value detection, absence of raw data/checkpoint files, and absence of public local absolute paths.
+List the available exported figures:
 
-## Supplementary best-fold result
+    python scripts/reproduce_figures.py
 
-The best single-fold diagnostic result reached 85.35% accuracy. This result is reported only as supplementary evidence and is not used for headline mean leave-one-subject-out comparison or SOTA comparison.
+## Dataset-dependent scripts
 
-## Scientific cautions
+The following scripts require local access to the official datasets and locally generated features:
 
-1. The ablation table currently contains 11 verified rows. Do not claim 14 verified ablation rows unless the missing rows are checkpoint-verified.
-2. FACED is used through the processed 30-channel differential-entropy feature representation observed in the project audit.
-3. DANCE/DANCE Teacher values should be reported cautiously unless the final leave-one-subject-out source is reconciled.
-4. Raw SEED-IV and FACED datasets are not redistributed.
+    python scripts/preprocess_seediv.py
+    python scripts/evaluate_loso.py
 
 ## License
 
-This repository uses the MIT License for project code and documentation authored for this work. The license does not grant permission to redistribute SEED-IV, FACED, or any other third-party dataset or derived data files subject to third-party access terms.
+The project code and documentation are released under the MIT License. The license does not cover SEED-IV, FACED, or any other third-party dataset.
