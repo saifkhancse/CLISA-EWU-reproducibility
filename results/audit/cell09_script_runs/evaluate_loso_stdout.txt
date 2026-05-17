@@ -1,0 +1,2 @@
+LOSO evaluation requires official dataset access and local feature generation.
+Use scripts/verify_results.py and scripts/reproduce_tables.py to reproduce released tables.

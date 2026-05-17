@@ -1,0 +1,16 @@
+{
+  "_comment": "6-channel subset used by CLISA training and deployment",
+  "indices": [
+    0,
+    2,
+    5,
+    13,
+    23,
+    31
+  ],
+  "n_source_channels": 62,
+  "n_target_channels": 6,
+  "n_bands": 5,
+  "source_input_dim": 310,
+  "target_input_dim": 30
+}

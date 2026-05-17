@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-05-17_23-56-33",
+  "staging_repo": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility",
+  "changed_files": [
+    "CITATION.cff",
+    "LICENSE",
+    "README.md",
+    "results/reproduced_tables/reproduced_tables_summary.json",
+    "scripts/evaluate_loso.py",
+    "scripts/preprocess_seediv.py",
+    "scripts/reproduce_figures.py",
+    "scripts/reproduce_tables.py"
+  ],
+  "text_files_scanned": 213,
+  "local_path_hits_total": 75,
+  "public_local_path_blockers": 0,
+  "placeholder_hits_total": 184,
+  "public_placeholder_reviews": 0,
+  "disallowed_files": 0,
+  "large_files_over_25mb": 1,
+  "script_runs_ok": 7,
+  "script_runs_total": 7,
+  "blocking_issues": [
+    "Repository still contains files larger than 25 MB."
+  ],
+  "review_items": [],
+  "github_ready_public_release": false,
+  "remaining_manual_step_after_github_creation": [
+    "After creating the GitHub repository, optionally add repository-code to CITATION.cff with the final URL.",
+    "Keep dataset-access restrictions in README and docs/dataset_access.md.",
+    "Do not commit external audit folders such as _repo_audit_cell01 to _repo_audit_cell09."
+  ]
+}

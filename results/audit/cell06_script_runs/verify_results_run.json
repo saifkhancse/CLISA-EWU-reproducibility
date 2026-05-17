@@ -1,0 +1,6 @@
+{
+  "script": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\scripts\\verify_results.py",
+  "returncode": 0,
+  "stdout": "verify_results.py completed\nRequired final tables OK: 9 / 9\nKey value hits: 121\nKey values missing: 0\nDisallowed files found: 0\nReport: C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\results\\audit\\verification\\verification_report.md\n",
+  "stderr": ""
+}

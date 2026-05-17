@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-18_00-06-56",
+  "repository_root": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility",
+  "required_files_ok": 26,
+  "required_files_total": 26,
+  "json_files_ok": 5,
+  "json_files_total": 5,
+  "disallowed_files_found": 0,
+  "tables_found": 11,
+  "tables_reproduced_ok": 11,
+  "verification_required_tables_ok": 9,
+  "verification_required_tables_total": 9,
+  "verification_key_values_missing": 0,
+  "blocking_issues": [],
+  "github_ready_basic": true,
+  "known_scientific_cautions": [
+    "Ablation table has 11 verified rows; do not claim 14 verified rows unless checkpoints are confirmed.",
+    "FACED is used as processed 30-channel feature representation for domain-gap analysis.",
+    "DANCE/M25 should be reported with caution unless final LOSO value is reconciled.",
+    "Raw SEED-IV/FACED data are not redistributed."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "dataset": "SEED-IV",
+  "full_channel_count": 62,
+  "feature_bands": [
+    "delta",
+    "theta",
+    "alpha",
+    "beta",
+    "gamma"
+  ],
+  "six_channel_wearable_subset": {
+    "channel_names": [
+      "FP1",
+      "FP2",
+      "F7",
+      "F8",
+      "T7",
+      "T8"
+    ],
+    "zero_based_indices": [
+      0,
+      2,
+      5,
+      13,
+      23,
+      31
+    ],
+    "feature_dimension": 30,
+    "note": "Six channels x five differential-entropy frequency bands = 30 features."
+  },
+  "full_feature_dimension": 310,
+  "note": "Full setting uses 62 channels x five differential-entropy bands = 310 features."
+}

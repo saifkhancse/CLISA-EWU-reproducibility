@@ -1,0 +1,104 @@
+column_names,columns,error,file,rows,status
+ablation; seed; acc_A; f1_A; acc_B; f1_B,6,,results/aggregates/ablations/ablations.csv,48,OK
+ablation; seed; acc_A; f1_A; acc_B; f1_B,6,,results/aggregates/ablations/ablations_before_recovery_backup.csv,33,OK
+ablation; seed; acc_A; f1_A; acc_B; f1_B,6,,results/aggregates/ablations/ablations_partial_33rows.csv,33,OK
+ablation; seed; acc_A; f1_A; acc_B; f1_B,6,,results/aggregates/ablations/ablations_partial_salvaged.csv,33,OK
+ablation; acc_A_mean; acc_A_std; f1_A_mean; f1_A_std; acc_B_mean; acc_B_std; f1_B_mean; f1_B_std,9,,results/aggregates/ablations/ablations_partial_summary.csv,11,OK
+ablation; seed; acc_A; f1_A; acc_B; f1_B,6,,results/aggregates/ablations/ablations_recovery_progress.csv,48,OK
+model; ch; seed; fold; acc_A; f1_A; acc_B; f1_B,8,,results/aggregates/classical_ml/all_classical.csv,810,OK
+Model; Name; Channels; F1_mean; F1_std; Acc_mean; Acc_std; F1_Neutral; F1_Sad; F1_Fear; F1_Happy; PhaseB_ref_F1; Delta_vs_PhaseB; N_runs,14,,results/aggregates/classical_ml/classical_ml_summary.csv,20,OK
+exp; src; tgt; model; acc_A; f1_A,6,,results/aggregates/cross_dataset/cross_dataset_results.csv,0,OK
+model; ch; seed; fold; acc_A; f1_A; acc_B; f1_B,8,,results/aggregates/deep_models/all_dl.csv,900,OK
+f1_macro; f1_weighted; accuracy; f1_per_class; conf_matrix; seed; fold; test_subj; elapsed_s; model; acc; f1; n_test; model_id; ch; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b; n_pseudolabels; delta; theta; alpha; beta; gamma; overall,35,,results/aggregates/deep_models_seediv/deep_models_all_folds.csv,10395,OK
+model_id; ch; n_runs; acc_a_mean; acc_a_std; f1_a_mean; f1_a_std; acc_b_mean; acc_b_std; f1_b_mean; f1_b_std,11,,results/aggregates/deep_models_seediv/deep_models_master_summary.csv,30,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M11_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M11_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M12_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M12_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M13_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M13_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M14_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M14_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M15_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M15_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M16_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M16_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M17_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M17_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M18_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M18_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b,17,,results/aggregates/deep_models_seediv/M19_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b,17,,results/aggregates/deep_models_seediv/M19_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b,17,,results/aggregates/deep_models_seediv/M20_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b,17,,results/aggregates/deep_models_seediv/M20_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M21_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b,17,,results/aggregates/deep_models_seediv/M21_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M22_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b,17,,results/aggregates/deep_models_seediv/M22_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b; n_pseudolabels,18,,results/aggregates/deep_models_seediv/M23_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed; cm_a; cm_b; y_true_a; y_pred_a; y_true_b; y_pred_b; n_pseudolabels,18,,results/aggregates/deep_models_seediv/M23_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M24_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M24_6ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M25_62ch_summary.csv,45,OK
+model_id; ch; seed; fold; test_sub; acc_a; f1_a; acc_b; f1_b; best_val_f1; elapsed,11,,results/aggregates/deep_models_seediv/M26_6ch_summary.csv,45,OK
+acc_a; f1_a; acc_b; f1_b; seed; fold; test_subj; elapsed,8,,results/aggregates/exploratory_graph_former_not_main/M27_EEGGraphFormer_SEED-IV_final.csv,45,OK
+acc_a; f1_a; acc_b; f1_b; seed; fold; test_subj; elapsed,8,,results/aggregates/exploratory_graph_former_not_main/M28_GraphStudent_SEED-IV_final.csv,45,OK
+acc_a; f1_a; acc_b; f1_b; seed; fold; test_subj; elapsed,8,,results/aggregates/exploratory_graph_former_not_main/M28_student_loso_results.csv,45,OK
+model; seed; fold; acc_A; f1_A; acc_B; f1_B,7,,results/aggregates/loso/dance_loso.csv,90,OK
+e00_teacher_acc_a; e00_teacher_acc_b; h17_teacher_acc_a; h17_teacher_acc_b; e00_student_acc_a; e00_student_acc_b; h17_student_acc_a; h17_student_acc_b; teacher_ref_b; student_ref_b,10,,results/aggregates/phaseB_reproduction/phaseB_reproduce_results.csv,1,OK
+model; ch; seed; fold; acc_A; f1_A; acc_B; f1_B,8,,results/aggregates/ssl_semisl/all_ssl.csv,270,OK
+relative_path; size_human; num_rows; num_columns; columns; first_rows_preview; status; error; repo_action_hint,9,,results/audit/cell02_csv_schemas.csv,61,OK
+relative_path; size_human; num_cells; num_code_cells; num_markdown_cells; has_outputs; num_output_cells; imports; defined_functions; defined_classes; referenced_paths; markdown_headings; status; error; repo_action_hint,15,,results/audit/cell02_notebook_analysis.csv,24,OK
+relative_path; extension; size_human; shape; dtype; npz_keys; status; error; repo_action_hint,9,,results/audit/cell02_npy_npz_shapes.csv,141,OK
+relative_path; size_human; imports; defined_functions; defined_classes; referenced_paths; status; error; repo_action_hint,9,,results/audit/cell02_python_file_analysis.csv,23,OK
+notebook; num_imports; imports,3,,results/audit/cell04_notebook_extraction/cell04_imports_by_notebook.csv,18,OK
+notebook; cell_index; num_lines; num_chars; first_line; categories; target_script_hint; imports; defined_functions; defined_classes; absolute_paths_found; has_outputs; num_outputs; has_save_call,14,,results/audit/cell04_notebook_extraction/cell04_notebook_cell_index.csv,451,OK
+notebook; status; num_cells; num_code_cells; num_markdown_cells; code_cells_with_outputs; raw_export; main_categories; defined_functions; defined_classes; absolute_paths_found,11,,results/audit/cell04_notebook_extraction/cell04_notebook_summary.csv,18,OK
+empty,1,,results/audit/cell08_final_journal_neutrality/disallowed_files.csv,0,OK
+item; path; status; type,4,,results/audit/cell08_final_journal_neutrality/ieee_access_reproducibility_checklist.csv,15,OK
+context; internal; kind; match; path; severity,6,,results/audit/cell08_final_journal_neutrality/journal_specific_hits.csv,6,OK
+empty,1,,results/audit/cell08_final_journal_neutrality/large_files.csv,0,OK
+context; internal; kind; match; path; severity,6,,results/audit/cell08_final_journal_neutrality/local_path_hits.csv,359,OK
+context; internal; kind; match; path; severity,6,,results/audit/cell08_final_journal_neutrality/placeholder_hits.csv,19,OK
+returncode; script; stderr; stdout,4,,results/audit/cell08_final_journal_neutrality/script_runs.csv,3,OK
+internal; path; read_error; size_kb,4,,results/audit/cell08_final_journal_neutrality/text_files_scanned.csv,182,OK
+empty,1,,results/audit/cell09_public_release_sanitization/disallowed_files_after_sanitization.csv,0,OK
+extension; internal; path; size_bytes,4,,results/audit/cell09_public_release_sanitization/large_files_after_sanitization.csv,1,OK
+internal; kind; match; path; severity,5,,results/audit/cell09_public_release_sanitization/local_path_hits_after_sanitization.csv,75,OK
+internal; kind; match; path; severity,5,,results/audit/cell09_public_release_sanitization/placeholder_hits_after_sanitization.csv,184,OK
+returncode; script; stderr; stdout,4,,results/audit/cell09_public_release_sanitization/script_runs_after_sanitization.csv,7,OK
+internal; path; size_bytes,3,,results/audit/cell09_public_release_sanitization/text_files_scanned.csv,213,OK
+empty,1,,results/audit/repository_readiness/disallowed_file_check.csv,0,OK
+error; path; status,3,,results/audit/repository_readiness/json_validity_check.csv,5,OK
+exists; group; path; size_bytes; status,5,,results/audit/repository_readiness/required_files_check.csv,26,OK
+source_relative_path; repo_relative_path; reason; status; size_bytes; size_human,6,,results/audit/staging_manifest_cell03.csv,138,OK
+column_names; columns; error; file; rows; status,6,,results/audit/verification/csv_table_summaries.csv,98,OK
+columns; contains_0_5190; contains_0_6170; file; note; rows; status,7,,results/audit/verification/dance_table_check.csv,4,OK
+empty,1,,results/audit/verification/disallowed_large_or_data_files.csv,0,OK
+dtype; file; note; shape; status,5,,results/audit/verification/faced_shape_check.csv,1,OK
+found_in; key_claim; value,3,,results/audit/verification/key_value_hits.csv,122,OK
+empty,1,,results/audit/verification/key_value_missing.csv,0,OK
+columns; error; exists; required_file; rows; status,6,,results/audit/verification/required_final_tables_check.csv,9,OK
+type; path; size_kb,3,,results/final_tables/audit_discovered_optional_assets.csv,2,OK
+model; model_mean; m25_mean; t_stat; p_value; significant; n_paired,7,,results/final_tables/audit_statistical_tests.csv,3,OK
+model_id; name; ch; F1_mean; F1_std; Acc_mean; Acc_std; f1_neutral; f1_sad; f1_fear; f1_happy; n_runs,12,,results/final_tables/table_5_1_classical_main.csv,20,OK
+model_id; name; ch; n_runs; acc_a_mean; acc_a_std; f1_a_mean; f1_a_std; acc_b_mean; acc_b_std; f1_b_mean; f1_b_std,12,,results/final_tables/table_5_2_deep_main.csv,28,OK
+model_id; name; ch; n_runs; acc_a_mean; acc_a_std; f1_a_mean; f1_a_std; acc_b_mean; acc_b_std; f1_b_mean; f1_b_std; mean_best_val_f1; mean_elapsed,14,,results/final_tables/table_5_3_dance_loso_verified.csv,2,OK
+variant; model; acc_a; acc_b; ref_acc_b; delta_vs_ref_b,6,,results/final_tables/table_5_3b_dance_reproduction.csv,4,OK
+ablation; acc_A_mean; acc_A_std; f1_A_mean; f1_A_std; acc_B_mean; acc_B_std; f1_B_mean; f1_B_std,9,,results/final_tables/table_5_4_ablations.csv,11,OK
+model_id; name; ch; delta_acc; delta_f1,5,,results/final_tables/table_5_5_proto_gain.csv,30,OK
+model_id; name; primary_62; primary_6; retention_primary; family; paired_distillation,7,,results/final_tables/table_5_6_channel_efficiency.csv,25,OK
+model_id; name; ch; source; f1_neutral; f1_sad; f1_fear; f1_happy,8,,results/final_tables/table_5_7_per_class_top_models.csv,20,OK
+output; source; role; status,4,,results/final_tables/table_audit_sources.csv,8,OK
+type; path; size kb,3,,results/reproduced_tables/audit_discovered_optional_assets.normalized.csv,2,OK
+model; model mean; m25 mean; t stat; p value; significant; n paired,7,,results/reproduced_tables/audit_statistical_tests.normalized.csv,3,OK
+source_file; reproduced_csv; reproduced_md; rows; columns; status; title,7,,results/reproduced_tables/reproduced_tables_index.csv,11,OK
+model id; name; ch; F1 mean; F1 std; Acc mean; Acc std; f1 neutral; f1 sad; f1 fear; f1 happy; n runs,12,,results/reproduced_tables/table_5_1_classical_main.normalized.csv,20,OK
+model id; name; ch; n runs; acc a mean; acc a std; f1 a mean; f1 a std; acc b mean; acc b std; f1 b mean; f1 b std,12,,results/reproduced_tables/table_5_2_deep_main.normalized.csv,28,OK
+model id; name; ch; n runs; acc a mean; acc a std; f1 a mean; f1 a std; acc b mean; acc b std; f1 b mean; f1 b std; mean best val f1; mean elapsed,14,,results/reproduced_tables/table_5_3_dance_loso_verified.normalized.csv,2,OK
+variant; model; acc a; acc b; ref acc b; delta vs ref b,6,,results/reproduced_tables/table_5_3b_dance_reproduction.normalized.csv,4,OK
+ablation; acc A mean; acc A std; f1 A mean; f1 A std; acc B mean; acc B std; f1 B mean; f1 B std,9,,results/reproduced_tables/table_5_4_ablations.normalized.csv,11,OK
+model id; name; ch; delta acc; delta f1,5,,results/reproduced_tables/table_5_5_proto_gain.normalized.csv,30,OK
+model id; name; primary 62; primary 6; retention primary; family; paired distillation,7,,results/reproduced_tables/table_5_6_channel_efficiency.normalized.csv,25,OK
+model id; name; ch; source; f1 neutral; f1 sad; f1 fear; f1 happy,8,,results/reproduced_tables/table_5_7_per_class_top_models.normalized.csv,20,OK
+output; source; role; status,4,,results/reproduced_tables/table_audit_sources.normalized.csv,8,OK

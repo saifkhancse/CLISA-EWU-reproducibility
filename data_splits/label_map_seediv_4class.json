@@ -1,0 +1,11 @@
+{
+  "dataset": "SEED-IV",
+  "num_classes": 4,
+  "label_encoding": {
+    "0": "Neutral",
+    "1": "Sad",
+    "2": "Fear",
+    "3": "Happy"
+  },
+  "note": "Confirm that this label encoding matches the final preprocessing pipeline before public release."
+}

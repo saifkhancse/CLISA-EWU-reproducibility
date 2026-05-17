@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project audit/staging folders
+_repo_audit_cell*/
+CLISA-EWU-reproducibility.zip
+
+# Raw and derived dataset files
+data/
+features/
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.edf
+*.set
+*.fdt
+*.pkl
+*.pickle
+
+# Model checkpoints and heavy logs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.sav
+wandb/
+runs/
+logs/
+tensorboard/
+
+# Manuscript drafts and local presentations
+*.docx
+*.pptx
+*.zip
+~$*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep small CSV/JSON result files allowed
+!results/**/*.csv
+!results/**/*.json
+!configs/**/*.json
+!docs/**/*.json

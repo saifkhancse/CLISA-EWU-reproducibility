@@ -1,0 +1,12 @@
+source_file,reproduced_csv,reproduced_md,rows,columns,status,title
+results/final_tables/audit_discovered_optional_assets.csv,results/reproduced_tables/audit_discovered_optional_assets.normalized.csv,results/reproduced_tables/audit_discovered_optional_assets.md,2,3,OK,Audit table. Optional assets
+results/final_tables/audit_statistical_tests.csv,results/reproduced_tables/audit_statistical_tests.normalized.csv,results/reproduced_tables/audit_statistical_tests.md,3,7,OK,Audit table. Statistical tests
+results/final_tables/table_5_1_classical_main.csv,results/reproduced_tables/table_5_1_classical_main.normalized.csv,results/reproduced_tables/table_5_1_classical_main.md,20,12,OK,Table 5.1. Classical machine-learning benchmark
+results/final_tables/table_5_2_deep_main.csv,results/reproduced_tables/table_5_2_deep_main.normalized.csv,results/reproduced_tables/table_5_2_deep_main.md,28,12,OK,Table 5.2. Deep-learning and adaptation benchmark
+results/final_tables/table_5_3_dance_loso_verified.csv,results/reproduced_tables/table_5_3_dance_loso_verified.normalized.csv,results/reproduced_tables/table_5_3_dance_loso_verified.md,2,14,OK,Table 5.3. DANCE LOSO verified results
+results/final_tables/table_5_3b_dance_reproduction.csv,results/reproduced_tables/table_5_3b_dance_reproduction.normalized.csv,results/reproduced_tables/table_5_3b_dance_reproduction.md,4,6,OK,Table 5.3b. DANCE reproduction/caution table
+results/final_tables/table_5_4_ablations.csv,results/reproduced_tables/table_5_4_ablations.normalized.csv,results/reproduced_tables/table_5_4_ablations.md,11,9,OK,Table 5.4. Ablation study
+results/final_tables/table_5_5_proto_gain.csv,results/reproduced_tables/table_5_5_proto_gain.normalized.csv,results/reproduced_tables/table_5_5_proto_gain.md,30,5,OK,Table 5.5. Proto-A versus Proto-B gain
+results/final_tables/table_5_6_channel_efficiency.csv,results/reproduced_tables/table_5_6_channel_efficiency.normalized.csv,results/reproduced_tables/table_5_6_channel_efficiency.md,25,7,OK,Table 5.6. Channel-efficiency retention
+results/final_tables/table_5_7_per_class_top_models.csv,results/reproduced_tables/table_5_7_per_class_top_models.normalized.csv,results/reproduced_tables/table_5_7_per_class_top_models.md,20,8,OK,Table 5.7. Per-class top-model comparison
+results/final_tables/table_audit_sources.csv,results/reproduced_tables/table_audit_sources.normalized.csv,results/reproduced_tables/table_audit_sources.md,8,4,OK,Audit table. Source mapping

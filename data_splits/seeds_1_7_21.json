@@ -1,0 +1,8 @@
+{
+  "random_seeds": [
+    1,
+    7,
+    21
+  ],
+  "note": "These are the three random seeds used for the LOSO benchmark in the manuscript."
+}

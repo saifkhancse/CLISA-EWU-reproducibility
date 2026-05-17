@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-05-18_00-06-50",
+  "staging_repo": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility",
+  "changed_files": [
+    "CITATION.cff",
+    "LICENSE",
+    "README.md",
+    "scripts/reproduce_tables.py",
+    "scripts/verify_results.py"
+  ],
+  "deleted_files": [
+    "results/audit/verification/key_term_hits.csv"
+  ],
+  "public_text_files_scanned": 110,
+  "public_local_path_hits": 0,
+  "public_placeholder_hits": 0,
+  "disallowed_files": 0,
+  "large_files_over_25mb": 0,
+  "large_files": [],
+  "script_runs_ok": 7,
+  "script_runs_total": 7,
+  "blocking_issues": [],
+  "github_ready_public_release": true
+}

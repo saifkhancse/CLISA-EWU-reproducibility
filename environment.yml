@@ -1,0 +1,20 @@
+name: clisa-ewu
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - tqdm
+  - pyyaml
+  - jupyter
+  - nbformat
+  - pip
+  - pip:
+      - torch
+      - torchvision

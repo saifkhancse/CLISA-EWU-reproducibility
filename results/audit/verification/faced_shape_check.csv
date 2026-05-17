@@ -1,0 +1,2 @@
+dtype,file,note,shape,status
+float32,C\features\faced_X_32ch.npy,"Use this as evidence that processed FACED feature representation is 30 channels: (110208, 30, 5).","(110208, 30, 5)",OK

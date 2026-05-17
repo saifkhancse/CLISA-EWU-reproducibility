@@ -1,0 +1,2 @@
+SEED-IV preprocessing requires official dataset access.
+See docs/dataset_access.md and data_splits/ for expected metadata.

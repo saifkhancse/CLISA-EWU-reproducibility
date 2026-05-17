@@ -1,0 +1,17 @@
+{
+  "primary_model": "M20_6ch",
+  "models": {
+    "M20_6ch": {
+      "family": "CLISA",
+      "channels": 6,
+      "input_dim": 30,
+      "preferred_checkpoint": "M20_6ch_best.pt"
+    },
+    "M20_62ch": {
+      "family": "CLISA",
+      "channels": 62,
+      "input_dim": 310,
+      "preferred_checkpoint": "M20_62ch_best.pt"
+    }
+  }
+}

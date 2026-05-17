@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-05-17_23-50-59",
+  "staging_repo": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility",
+  "text_files_scanned": 182,
+  "local_path_hits_total": 359,
+  "public_local_path_blockers": 6,
+  "placeholder_hits_total": 19,
+  "public_placeholder_reviews": 9,
+  "journal_specific_hits_total": 6,
+  "public_journal_specific_reviews": 0,
+  "disallowed_files": 0,
+  "large_files_over_25mb": 0,
+  "ieee_checklist_ok": 15,
+  "ieee_checklist_total": 15,
+  "script_runs_ok": 3,
+  "script_runs_total": 3,
+  "blocking_issues": [
+    "Public-facing files contain local absolute paths. These should be removed or moved to internal audit only.",
+    "LICENSE/CITATION still contains placeholder license terms. Choose a license before public release."
+  ],
+  "review_items": [
+    "CITATION.cff still has GitHub USERNAME placeholder; replace after creating the GitHub repository.",
+    "Public files contain TODO/TBD/placeholder text. Review before final release."
+  ],
+  "github_ready_after_final_manual_edits": false,
+  "recommended_manual_edits_before_push": [
+    "Replace USERNAME in CITATION.cff after creating GitHub repository.",
+    "Replace LICENSE placeholder with a real license, preferably MIT for code only, if approved.",
+    "Keep dataset restriction wording for SEED-IV and FACED.",
+    "Avoid putting IEEE Access in the repository name; keep CLISA-EWU-reproducibility.",
+    "Do not upload local audit folders outside the staged repo."
+  ]
+}

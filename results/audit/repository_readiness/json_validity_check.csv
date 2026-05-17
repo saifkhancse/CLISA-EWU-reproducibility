@@ -1,0 +1,6 @@
+error,path,status
+,data_splits/seediv_loso_folds.json,OK
+,data_splits/seeds_1_7_21.json,OK
+,data_splits/channel_indices_seediv_62_to_6.json,OK
+,data_splits/label_map_seediv_4class.json,OK
+,configs/faced_processing_contract.json,OK

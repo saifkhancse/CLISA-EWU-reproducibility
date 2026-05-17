@@ -1,0 +1,3 @@
+Data split/config files generated.
+Output: C:\Users\Saif\Desktop\CSE400\CLISA-EWU-reproducibility\data_splits
+Output: C:\Users\Saif\Desktop\CSE400\CLISA-EWU-reproducibility\configs

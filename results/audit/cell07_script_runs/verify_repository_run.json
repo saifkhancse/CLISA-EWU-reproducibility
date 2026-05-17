@@ -1,0 +1,6 @@
+{
+  "script": "C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\scripts\\verify_repository.py",
+  "returncode": 0,
+  "stdout": "verify_repository.py completed\nRequired files OK: 26 / 26\nJSON files OK: 5 / 5\nDisallowed files found: 0\nBasic GitHub ready: True\nReport: C:\\Users\\Saif\\Desktop\\CSE400\\CLISA-EWU-reproducibility\\results\\audit\\repository_readiness\\repository_readiness_report.md\n",
+  "stderr": ""
+}

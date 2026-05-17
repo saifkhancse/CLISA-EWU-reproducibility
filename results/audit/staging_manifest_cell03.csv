@@ -1,0 +1,139 @@
+source_relative_path,repo_relative_path,reason,status,size_bytes,size_human
+C\results\final_tables\audit_discovered_optional_assets.csv,results\final_tables\audit_discovered_optional_assets.csv,Final paper/result tables; clean small CSVs.,COPIED,144,144.00 B
+C\results\final_tables\audit_statistical_tests.csv,results\final_tables\audit_statistical_tests.csv,Final paper/result tables; clean small CSVs.,COPIED,355,355.00 B
+C\results\final_tables\table_5_1_classical_main.csv,results\final_tables\table_5_1_classical_main.csv,Final paper/result tables; clean small CSVs.,COPIED,1678,1.64 KB
+C\results\final_tables\table_5_2_deep_main.csv,results\final_tables\table_5_2_deep_main.csv,Final paper/result tables; clean small CSVs.,COPIED,5060,4.94 KB
+C\results\final_tables\table_5_3_dance_loso_verified.csv,results\final_tables\table_5_3_dance_loso_verified.csv,Final paper/result tables; clean small CSVs.,COPIED,571,571.00 B
+C\results\final_tables\table_5_3b_dance_reproduction.csv,results\final_tables\table_5_3b_dance_reproduction.csv,Final paper/result tables; clean small CSVs.,COPIED,365,365.00 B
+C\results\final_tables\table_5_4_ablations.csv,results\final_tables\table_5_4_ablations.csv,Final paper/result tables; clean small CSVs.,COPIED,1805,1.76 KB
+C\results\final_tables\table_5_5_proto_gain.csv,results\final_tables\table_5_5_proto_gain.csv,Final paper/result tables; clean small CSVs.,COPIED,1840,1.80 KB
+C\results\final_tables\table_5_6_channel_efficiency.csv,results\final_tables\table_5_6_channel_efficiency.csv,Final paper/result tables; clean small CSVs.,COPIED,1868,1.82 KB
+C\results\final_tables\table_5_7_per_class_top_models.csv,results\final_tables\table_5_7_per_class_top_models.csv,Final paper/result tables; clean small CSVs.,COPIED,1396,1.36 KB
+C\results\final_tables\table_audit_sources.csv,results\final_tables\table_audit_sources.csv,Final paper/result tables; clean small CSVs.,COPIED,469,469.00 B
+C\results\final_figures\png\fig_5_10_channel_efficiency_scatter.png,figures\paper\fig_5_10_channel_efficiency_scatter.png,Final paper figures generated from verified result scripts.,COPIED,241806,236.14 KB
+C\results\final_figures\png\fig_5_11_channel_efficiency_retention.png,figures\paper\fig_5_11_channel_efficiency_retention.png,Final paper figures generated from verified result scripts.,COPIED,245130,239.38 KB
+C\results\final_figures\png\fig_5_12_per_class_all_models.png,figures\paper\fig_5_12_per_class_all_models.png,Final paper figures generated from verified result scripts.,COPIED,310582,303.30 KB
+C\results\final_figures\png\fig_5_13_per_class_top_62ch.png,figures\paper\fig_5_13_per_class_top_62ch.png,Final paper figures generated from verified result scripts.,COPIED,208598,203.71 KB
+C\results\final_figures\png\fig_5_14_per_class_top_6ch.png,figures\paper\fig_5_14_per_class_top_6ch.png,Final paper figures generated from verified result scripts.,COPIED,208222,203.34 KB
+C\results\final_figures\png\fig_5_1_classical_leaderboard.png,figures\paper\fig_5_1_classical_leaderboard.png,Final paper figures generated from verified result scripts.,COPIED,194962,190.39 KB
+C\results\final_figures\png\fig_5_1a_classical_leaderboard_62ch.png,figures\paper\fig_5_1a_classical_leaderboard_62ch.png,Final paper figures generated from verified result scripts.,COPIED,158023,154.32 KB
+C\results\final_figures\png\fig_5_1b_classical_leaderboard_6ch.png,figures\paper\fig_5_1b_classical_leaderboard_6ch.png,Final paper figures generated from verified result scripts.,COPIED,155472,151.83 KB
+C\results\final_figures\png\fig_5_2_deep_leaderboard_62ch.png,figures\paper\fig_5_2_deep_leaderboard_62ch.png,Final paper figures generated from verified result scripts.,COPIED,173144,169.09 KB
+C\results\final_figures\png\fig_5_3_deep_leaderboard_6ch.png,figures\paper\fig_5_3_deep_leaderboard_6ch.png,Final paper figures generated from verified result scripts.,COPIED,169759,165.78 KB
+C\results\final_figures\png\fig_5_4_protoA_vs_protoB.png,figures\paper\fig_5_4_protoA_vs_protoB.png,Final paper figures generated from verified result scripts.,COPIED,468740,457.75 KB
+C\results\final_figures\png\fig_5_5_dance_headline.png,figures\paper\fig_5_5_dance_headline.png,Final paper figures generated from verified result scripts.,COPIED,132613,129.50 KB
+C\results\final_figures\png\fig_5_5a_dance_teacher_vs_top_62ch.png,figures\paper\fig_5_5a_dance_teacher_vs_top_62ch.png,Final paper figures generated from verified result scripts.,COPIED,109111,106.55 KB
+C\results\final_figures\png\fig_5_5b_dance_student_vs_top_6ch.png,figures\paper\fig_5_5b_dance_student_vs_top_6ch.png,Final paper figures generated from verified result scripts.,COPIED,107216,104.70 KB
+C\results\final_figures\png\fig_5_6_tsne_geometry.png,figures\paper\fig_5_6_tsne_geometry.png,Final paper figures generated from verified result scripts.,COPIED,102033,99.64 KB
+C\results\final_figures\png\fig_5_7_ablation_abs.png,figures\paper\fig_5_7_ablation_abs.png,Final paper figures generated from verified result scripts.,COPIED,108803,106.25 KB
+C\results\final_figures\png\fig_5_8_ablation_delta.png,figures\paper\fig_5_8_ablation_delta.png,Final paper figures generated from verified result scripts.,COPIED,117567,114.81 KB
+C\results\final_figures\png\fig_5_9a_stat_sig_mean_comparison.png,figures\paper\fig_5_9a_stat_sig_mean_comparison.png,Final paper figures generated from verified result scripts.,COPIED,131015,127.94 KB
+C\results\final_figures\png\fig_5_9b_stat_sig_pvalues.png,figures\paper\fig_5_9b_stat_sig_pvalues.png,Final paper figures generated from verified result scripts.,COPIED,97803,95.51 KB
+C\figures\final\fig01_classical_ml_f1.png,figures\final_archive\fig01_classical_ml_f1.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,277825,271.31 KB
+C\figures\final\fig02_deep_learning_accuracy.png,figures\final_archive\fig02_deep_learning_accuracy.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,550503,537.60 KB
+C\figures\final\fig03_headline_results.png,figures\final_archive\fig03_headline_results.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,302190,295.11 KB
+C\figures\final\fig04_ablation_study.png,figures\final_archive\fig04_ablation_study.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,385081,376.06 KB
+C\figures\final\fig04a_ablation_accb.png,figures\final_archive\fig04a_ablation_accb.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,350644,342.43 KB
+C\figures\final\fig04b_ablation_delta.png,figures\final_archive\fig04b_ablation_delta.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,214485,209.46 KB
+C\figures\final\fig05_channel_efficiency.png,figures\final_archive\fig05_channel_efficiency.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,292118,285.27 KB
+C\figures\final\fig05a_channel_scatter.png,figures\final_archive\fig05a_channel_scatter.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,280323,273.75 KB
+C\figures\final\fig05b_channel_retention.png,figures\final_archive\fig05b_channel_retention.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,188919,184.49 KB
+C\figures\final\fig06_confusion_matrices.png,figures\final_archive\fig06_confusion_matrices.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,239803,234.18 KB
+C\figures\final\fig06a_confusion_xgboost.png,figures\final_archive\fig06a_confusion_xgboost.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,223629,218.39 KB
+C\figures\final\fig06b_confusion_dann.png,figures\final_archive\fig06b_confusion_dann.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,211066,206.12 KB
+C\figures\final\fig06c_confusion_dance_teacher.png,figures\final_archive\fig06c_confusion_dance_teacher.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,219868,214.71 KB
+C\figures\final\fig07_per_subject_heatmap.png,figures\final_archive\fig07_per_subject_heatmap.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,177938,173.77 KB
+C\figures\final\fig07a_subject_heatmap_dann.png,figures\final_archive\fig07a_subject_heatmap_dann.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,357058,348.69 KB
+C\figures\final\fig07b_subject_heatmap_dance.png,figures\final_archive\fig07b_subject_heatmap_dance.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,357640,349.26 KB
+C\figures\final\fig08_faced_benchmark.png,figures\final_archive\fig08_faced_benchmark.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,177623,173.46 KB
+C\figures\final\fig09_statistical_significance.png,figures\final_archive\fig09_statistical_significance.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,440780,430.45 KB
+C\figures\final\fig09a_wilcoxon_pvalues.png,figures\final_archive\fig09a_wilcoxon_pvalues.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,279912,273.35 KB
+C\figures\final\fig09b_f1_distributions.png,figures\final_archive\fig09b_f1_distributions.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,330356,322.61 KB
+C\figures\final\fig10_full_model_ranking.png,figures\final_archive\fig10_full_model_ranking.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,581603,567.97 KB
+C\figures\final\fig11_per_class_f1.png,figures\final_archive\fig11_per_class_f1.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,208350,203.47 KB
+C\figures\final\fig11a_per_class_f1_62ch.png,figures\final_archive\fig11a_per_class_f1_62ch.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,229602,224.22 KB
+C\figures\final\fig11b_per_class_f1_6ch.png,figures\final_archive\fig11b_per_class_f1_6ch.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,224665,219.40 KB
+C\figures\final\fig12_band_mmd.png,figures\final_archive\fig12_band_mmd.png,Alternative/final figure archive from thesis pipeline; review before using in paper.,COPIED,147720,144.26 KB
+C\results\deep_models_seediv\deep_models_all_folds.csv,results\aggregates\deep_models_seediv\deep_models_all_folds.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,6807007,6.49 MB
+C\results\deep_models_seediv\deep_models_master_summary.csv,results\aggregates\deep_models_seediv\deep_models_master_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2132,2.08 KB
+C\results\deep_models_seediv\M11_62ch_summary.csv,results\aggregates\deep_models_seediv\M11_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2491,2.43 KB
+C\results\deep_models_seediv\M11_6ch_summary.csv,results\aggregates\deep_models_seediv\M11_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2450,2.39 KB
+C\results\deep_models_seediv\M12_62ch_summary.csv,results\aggregates\deep_models_seediv\M12_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2487,2.43 KB
+C\results\deep_models_seediv\M12_6ch_summary.csv,results\aggregates\deep_models_seediv\M12_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2443,2.39 KB
+C\results\deep_models_seediv\M13_62ch_summary.csv,results\aggregates\deep_models_seediv\M13_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2493,2.43 KB
+C\results\deep_models_seediv\M13_6ch_summary.csv,results\aggregates\deep_models_seediv\M13_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2446,2.39 KB
+C\results\deep_models_seediv\M14_62ch_summary.csv,results\aggregates\deep_models_seediv\M14_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2489,2.43 KB
+C\results\deep_models_seediv\M14_6ch_summary.csv,results\aggregates\deep_models_seediv\M14_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2445,2.39 KB
+C\results\deep_models_seediv\M15_62ch_summary.csv,results\aggregates\deep_models_seediv\M15_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2489,2.43 KB
+C\results\deep_models_seediv\M15_6ch_summary.csv,results\aggregates\deep_models_seediv\M15_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2441,2.38 KB
+C\results\deep_models_seediv\M16_62ch_summary.csv,results\aggregates\deep_models_seediv\M16_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2536,2.48 KB
+C\results\deep_models_seediv\M16_6ch_summary.csv,results\aggregates\deep_models_seediv\M16_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2487,2.43 KB
+C\results\deep_models_seediv\M17_62ch_summary.csv,results\aggregates\deep_models_seediv\M17_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2502,2.44 KB
+C\results\deep_models_seediv\M17_6ch_summary.csv,results\aggregates\deep_models_seediv\M17_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2524,2.46 KB
+C\results\deep_models_seediv\M18_62ch_summary.csv,results\aggregates\deep_models_seediv\M18_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2620,2.56 KB
+C\results\deep_models_seediv\M18_6ch_summary.csv,results\aggregates\deep_models_seediv\M18_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2499,2.44 KB
+C\results\deep_models_seediv\M19_62ch_summary.csv,results\aggregates\deep_models_seediv\M19_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1357737,1.29 MB
+C\results\deep_models_seediv\M19_6ch_summary.csv,results\aggregates\deep_models_seediv\M19_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1357855,1.29 MB
+C\results\deep_models_seediv\M20_62ch_summary.csv,results\aggregates\deep_models_seediv\M20_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1357772,1.29 MB
+C\results\deep_models_seediv\M20_6ch_summary.csv,results\aggregates\deep_models_seediv\M20_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1357998,1.30 MB
+C\results\deep_models_seediv\M21_62ch_summary.csv,results\aggregates\deep_models_seediv\M21_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2664,2.60 KB
+C\results\deep_models_seediv\M21_6ch_summary.csv,results\aggregates\deep_models_seediv\M21_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1357917,1.30 MB
+C\results\deep_models_seediv\M22_62ch_summary.csv,results\aggregates\deep_models_seediv\M22_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2669,2.61 KB
+C\results\deep_models_seediv\M22_6ch_summary.csv,results\aggregates\deep_models_seediv\M22_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1357931,1.30 MB
+C\results\deep_models_seediv\M23_62ch_summary.csv,results\aggregates\deep_models_seediv\M23_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1357991,1.30 MB
+C\results\deep_models_seediv\M23_6ch_summary.csv,results\aggregates\deep_models_seediv\M23_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1358171,1.30 MB
+C\results\deep_models_seediv\M24_62ch_summary.csv,results\aggregates\deep_models_seediv\M24_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2522,2.46 KB
+C\results\deep_models_seediv\M24_6ch_summary.csv,results\aggregates\deep_models_seediv\M24_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2624,2.56 KB
+C\results\deep_models_seediv\M25_62ch_summary.csv,results\aggregates\deep_models_seediv\M25_62ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2714,2.65 KB
+C\results\deep_models_seediv\M26_6ch_summary.csv,results\aggregates\deep_models_seediv\M26_6ch_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2617,2.56 KB
+C\results\classical_ml\all_classical.csv,results\aggregates\classical_ml\all_classical.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,74051,72.32 KB
+C\results\classical_ml\classical_ml_summary.csv,results\aggregates\classical_ml\classical_ml_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1925,1.88 KB
+C\results\deep_models\all_dl.csv,results\aggregates\deep_models\all_dl.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,82307,80.38 KB
+C\results\loso\dance_loso.csv,results\aggregates\loso\dance_loso.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,8566,8.37 KB
+C\results\phaseB_reproduction\phaseB_reproduce_results.csv,results\aggregates\phaseB_reproduction\phaseB_reproduce_results.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,340,340.00 B
+C\results\ssl_semisl\all_ssl.csv,results\aggregates\ssl_semisl\all_ssl.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,24758,24.18 KB
+C\results\cross_dataset\cross_dataset_results.csv,results\aggregates\cross_dataset\cross_dataset_results.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,30,30.00 B
+C\results\ablations\ablations.csv,results\aggregates\ablations\ablations.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,4087,3.99 KB
+C\results\ablations\ablations_before_recovery_backup.csv,results\aggregates\ablations\ablations_before_recovery_backup.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2814,2.75 KB
+C\results\ablations\ablations_partial_33rows.csv,results\aggregates\ablations\ablations_partial_33rows.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2814,2.75 KB
+C\results\ablations\ablations_partial_salvaged.csv,results\aggregates\ablations\ablations_partial_salvaged.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,2814,2.75 KB
+C\results\ablations\ablations_partial_summary.csv,results\aggregates\ablations\ablations_partial_summary.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,1889,1.84 KB
+C\results\ablations\ablations_recovery_progress.csv,results\aggregates\ablations\ablations_recovery_progress.csv,Aggregate result CSV retained for reproducibility/provenance.,COPIED,4087,3.99 KB
+C\results\graph_former\M27_EEGGraphFormer_SEED-IV_final.csv,results\aggregates\exploratory_graph_former_not_main\M27_EEGGraphFormer_SEED-IV_final.csv,Exploratory GraphFormer result CSV; not part of main manuscript claim.,COPIED,4702,4.59 KB
+C\results\graph_former\M28_GraphStudent_SEED-IV_final.csv,results\aggregates\exploratory_graph_former_not_main\M28_GraphStudent_SEED-IV_final.csv,Exploratory GraphFormer result CSV; not part of main manuscript claim.,COPIED,4712,4.60 KB
+C\results\graph_former\M28_student_loso_results.csv,results\aggregates\exploratory_graph_former_not_main\M28_student_loso_results.csv,Exploratory GraphFormer result CSV; not part of main manuscript claim.,COPIED,4712,4.60 KB
+_repo_audit_cell01\cell01_project_inventory_report.md,results\audit\cell01_project_inventory_report.md,Repository preparation audit output.,COPIED,29267,28.58 KB
+_repo_audit_cell01\cell01_project_tree.txt,results\audit\cell01_project_tree.txt,Repository preparation audit output.,COPIED,166893,162.98 KB
+_repo_audit_cell01\cell01_summary.json,results\audit\cell01_summary.json,Repository preparation audit output.,COPIED,54942,53.65 KB
+_repo_audit_cell02\cell02_deep_audit_report.md,results\audit\cell02_deep_audit_report.md,Repository preparation audit output.,COPIED,25864,25.26 KB
+_repo_audit_cell02\cell02_candidate_repository_plan.md,results\audit\cell02_candidate_repository_plan.md,Repository preparation audit output.,COPIED,83744,81.78 KB
+_repo_audit_cell02\cell02_deep_audit_summary.json,results\audit\cell02_deep_audit_summary.json,Repository preparation audit output.,COPIED,2141,2.09 KB
+_repo_audit_cell02\cell02_npy_npz_shapes.csv,results\audit\cell02_npy_npz_shapes.csv,Repository preparation audit output.,COPIED,22414,21.89 KB
+_repo_audit_cell02\cell02_csv_schemas.csv,results\audit\cell02_csv_schemas.csv,Repository preparation audit output.,COPIED,63427,61.94 KB
+_repo_audit_cell02\cell02_notebook_analysis.csv,results\audit\cell02_notebook_analysis.csv,Repository preparation audit output.,COPIED,53117,51.87 KB
+_repo_audit_cell02\cell02_python_file_analysis.csv,results\audit\cell02_python_file_analysis.csv,Repository preparation audit output.,COPIED,14878,14.53 KB
+C\00_eda_seediv.ipynb,notebooks\provenance\00_eda_seediv.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,72808,71.10 KB
+C\00b_eda_faced.ipynb,notebooks\provenance\00b_eda_faced.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,49683,48.52 KB
+C\00c_phaseB_reproduce.ipynb,notebooks\provenance\00c_phaseB_reproduce.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,81397,79.49 KB
+C\01_classical_ml.ipynb,notebooks\provenance\01_classical_ml.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,170326,166.33 KB
+C\02_deep_models.ipynb,notebooks\provenance\02_deep_models.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,192572,188.06 KB
+C\03-5-and-04b-faced-models-kaggle-v2_Incomplete.ipynb,notebooks\provenance\03-5-and-04b-faced-models-kaggle-v2_Incomplete.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,176016,171.89 KB
+C\06-graph-former-v3.ipynb,notebooks\provenance\06-graph-former-v3.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,68911,67.30 KB
+C\08_final_stats_and_figures.ipynb,notebooks\provenance\08_final_stats_and_figures.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,1920350,1.83 MB
+C\08_final_stats_and_figures_v2.ipynb,notebooks\provenance\08_final_stats_and_figures_v2.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,339977,332.01 KB
+C\09_final_results_rebuild_verified.ipynb,notebooks\provenance\09_final_results_rebuild_verified.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,133510,130.38 KB
+C\CSE400C_PhaseBC_Master.ipynb,notebooks\provenance\CSE400C_PhaseBC_Master.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,1218868,1.16 MB
+C\dataset.ipynb,notebooks\provenance\dataset.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,22030,21.51 KB
+C\knowledge-distillation.ipynb,notebooks\provenance\knowledge-distillation.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,16893,16.50 KB
+C\neurosync_data_setup.ipynb,notebooks\provenance\neurosync_data_setup.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,762552,744.68 KB
+C\save the pts.ipynb,notebooks\provenance\save the pts.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,762769,744.89 KB
+Journal\10-wearkd-seediv-calibrated-clip-loso.ipynb,notebooks\provenance\10-wearkd-seediv-calibrated-clip-loso.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,605720,591.52 KB
+Journal\10-wearkd-seediv-calibrated-clip-loso-test.ipynb,notebooks\provenance\10-wearkd-seediv-calibrated-clip-loso-test.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,148526,145.04 KB
+Journal\seediv_raw_clisa_first_sota_fullrun.ipynb,notebooks\provenance\seediv_raw_clisa_first_sota_fullrun.ipynb,Important provenance notebook; should later be cleaned or converted into scripts.,COPIED,453837,443.20 KB
+C\backend_assets_clisa\config\channel_map_62_to_6.json,configs\channel_map_62_to_6.json,Small configuration metadata from backend assets.,COPIED,275,275.00 B
+C\backend_assets_clisa\metadata\asset_manifest.json,docs\backend_metadata\asset_manifest.json,Small backend metadata useful for documenting feature contracts.,COPIED,18246,17.82 KB
+C\backend_assets_clisa\metadata\dataset_summary.json,docs\backend_metadata\dataset_summary.json,Small backend metadata useful for documenting feature contracts.,COPIED,1091,1.07 KB
+C\backend_assets_clisa\metadata\model_registry.json,docs\backend_metadata\model_registry.json,Small backend metadata useful for documenting feature contracts.,COPIED,352,352.00 B
+C\backend_assets_clisa\metadata\preprocessing_contract.json,docs\backend_metadata\preprocessing_contract.json,Small backend metadata useful for documenting feature contracts.,COPIED,697,697.00 B
+_repo_audit_cell03\cell03_staging_report.md,results\audit\cell03_staging_report.md,Cell 3 staging report.,COPIED,818,818.00 B
+_repo_audit_cell03\cell03_staging_repo_tree.txt,results\audit\cell03_staging_repo_tree.txt,Cell 3 staging tree.,COPIED,9961,9.73 KB

@@ -1,0 +1,22 @@
+{
+  "mode": "training_compatible",
+  "primary_input_for_M20_6ch": "data/features/seed_iv_X_6ch.npy",
+  "primary_input_for_M20_62ch": "data/features/seed_iv_X_62ch.npy",
+  "do_not_use": [
+    "webapp data/processed for notebook-faithful evaluation",
+    "extra normalization on top of seed_iv_X_6ch.npy and seed_iv_X_62ch.npy"
+  ],
+  "notes": [
+    "Original feature tensors are already in the training-compatible standardized feature space.",
+    "For 6ch CLISA, X_6ch is exactly the subset of X_62ch using CH6_IDX.",
+    "Use these tensors directly for backend playback/evaluation."
+  ],
+  "channel_subset_indices_for_6ch": [
+    0,
+    2,
+    5,
+    13,
+    23,
+    31
+  ]
+}

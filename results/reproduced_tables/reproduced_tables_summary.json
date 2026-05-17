@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-05-18_00-06-51",
+  "final_table_dir": "results/final_tables",
+  "output_dir": "results/reproduced_tables",
+  "tables_found": 11,
+  "tables_reproduced_ok": 11,
+  "tables_with_error": 0,
+  "tables": [
+    {
+      "source_file": "results/final_tables/audit_discovered_optional_assets.csv",
+      "reproduced_csv": "results/reproduced_tables/audit_discovered_optional_assets.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/audit_discovered_optional_assets.md",
+      "rows": 2,
+      "columns": 3,
+      "status": "OK",
+      "title": "Audit table. Optional assets"
+    },
+    {
+      "source_file": "results/final_tables/audit_statistical_tests.csv",
+      "reproduced_csv": "results/reproduced_tables/audit_statistical_tests.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/audit_statistical_tests.md",
+      "rows": 3,
+      "columns": 7,
+      "status": "OK",
+      "title": "Audit table. Statistical tests"
+    },
+    {
+      "source_file": "results/final_tables/table_5_1_classical_main.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_1_classical_main.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_1_classical_main.md",
+      "rows": 20,
+      "columns": 12,
+      "status": "OK",
+      "title": "Table 5.1. Classical machine-learning benchmark"
+    },
+    {
+      "source_file": "results/final_tables/table_5_2_deep_main.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_2_deep_main.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_2_deep_main.md",
+      "rows": 28,
+      "columns": 12,
+      "status": "OK",
+      "title": "Table 5.2. Deep-learning and adaptation benchmark"
+    },
+    {
+      "source_file": "results/final_tables/table_5_3_dance_loso_verified.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_3_dance_loso_verified.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_3_dance_loso_verified.md",
+      "rows": 2,
+      "columns": 14,
+      "status": "OK",
+      "title": "Table 5.3. DANCE LOSO verified results"
+    },
+    {
+      "source_file": "results/final_tables/table_5_3b_dance_reproduction.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_3b_dance_reproduction.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_3b_dance_reproduction.md",
+      "rows": 4,
+      "columns": 6,
+      "status": "OK",
+      "title": "Table 5.3b. DANCE reproduction/caution table"
+    },
+    {
+      "source_file": "results/final_tables/table_5_4_ablations.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_4_ablations.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_4_ablations.md",
+      "rows": 11,
+      "columns": 9,
+      "status": "OK",
+      "title": "Table 5.4. Ablation study"
+    },
+    {
+      "source_file": "results/final_tables/table_5_5_proto_gain.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_5_proto_gain.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_5_proto_gain.md",
+      "rows": 30,
+      "columns": 5,
+      "status": "OK",
+      "title": "Table 5.5. Proto-A versus Proto-B gain"
+    },
+    {
+      "source_file": "results/final_tables/table_5_6_channel_efficiency.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_6_channel_efficiency.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_6_channel_efficiency.md",
+      "rows": 25,
+      "columns": 7,
+      "status": "OK",
+      "title": "Table 5.6. Channel-efficiency retention"
+    },
+    {
+      "source_file": "results/final_tables/table_5_7_per_class_top_models.csv",
+      "reproduced_csv": "results/reproduced_tables/table_5_7_per_class_top_models.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_5_7_per_class_top_models.md",
+      "rows": 20,
+      "columns": 8,
+      "status": "OK",
+      "title": "Table 5.7. Per-class top-model comparison"
+    },
+    {
+      "source_file": "results/final_tables/table_audit_sources.csv",
+      "reproduced_csv": "results/reproduced_tables/table_audit_sources.normalized.csv",
+      "reproduced_md": "results/reproduced_tables/table_audit_sources.md",
+      "rows": 8,
+      "columns": 4,
+      "status": "OK",
+      "title": "Audit table. Source mapping"
+    }
+  ]
+}

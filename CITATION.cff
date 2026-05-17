@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite the associated manuscript."
+title: "CLISA-EWU: Subject-Independent EEG Emotion Recognition via Contrastive Inter-Subject Alignment and Wearable Channel Compression"
+authors:
+  - family-names: "Khan"
+    given-names: "Saif"
+  - family-names: "Bin Qashem"
+    given-names: "Osama"
+  - family-names: "Bari"
+    given-names: "K. M. Fahim A."
+  - family-names: "Rahman"
+    given-names: "Rafid"
+date-released: "2026-05-17"
+version: "0.1.0"
+license: "MIT"
+abstract: "Reproducibility materials for CLISA-EWU, a contrastive inter-subject alignment framework for subject-independent EEG emotion recognition."

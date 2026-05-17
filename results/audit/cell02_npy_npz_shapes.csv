@@ -1,0 +1,142 @@
+relative_path,extension,size_human,shape,dtype,npz_keys,status,error,repo_action_hint
+C\features\faced_X_32ch.npy,.npy,63.06 MB,"(110208, 30, 5)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f1_noise.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f2_bandmask.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f3_chanmask.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f4_subject_mixup.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f5_combined.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f6_regionmask.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f7_magwarp.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_aug_f8_combined_m27.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_prep_f1_zscore_subject.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_prep_f3_minmax_subject.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_prep_f4_robust_subject.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_prep_f5_zscore_clip3.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_prep_f6_bandwise_zscore.npy,.npy,63.06 MB,"(110208, 150)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\backend_assets_clisa\data\features\seed_iv_X_62ch.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_X_62ch.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_X_62ch_norm.npy,.npy,44.43 MB,"(37575, 62, 5)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_aug_s1_noise.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_aug_s2_bandmask.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_aug_s3_chanmask.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_aug_s4_regionmask.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_aug_s5_subject_mixup.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_aug_s6_magwarp.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_aug_s7_combined.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s1_zscore_subject.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s3_minmax_subject.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s4_robust_subject.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s5_zscore_clip3.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s6_bandwise_zscore.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\seed-iv-clisa-data\features\seed_iv_X_62ch.npy,.npy,44.43 MB,"(37575, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\faced_prep_f1_zscore_subject_6ch.npy,.npy,12.61 MB,"(110208, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\backend_assets_clisa\data\features\seed_iv_X_6ch.npy,.npy,4.30 MB,"(37575, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_X_6ch.npy,.npy,4.30 MB,"(37575, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s1_zscore_subject_6ch.npy,.npy,4.30 MB,"(37575, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s3_minmax_subject_6ch.npy,.npy,4.30 MB,"(37575, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s4_robust_subject_6ch.npy,.npy,4.30 MB,"(37575, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\preprocessed\seed_iv_prep_s5_zscore_clip3_6ch.npy,.npy,4.30 MB,"(37575, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\seed-iv-clisa-data\features\seed_iv_X_6ch.npy,.npy,4.30 MB,"(37575, 30)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\faced_clips.npy,.npy,861.12 KB,"(110208,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\faced_subjects.npy,.npy,861.12 KB,"(110208,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\faced_y_4cls.npy,.npy,861.12 KB,"(110208,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\backend_assets_clisa\data\features\seed_iv_subjects.npy,.npy,293.68 KB,"(37575,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\backend_assets_clisa\data\features\seed_iv_y_4cls.npy,.npy,293.68 KB,"(37575,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_session.npy,.npy,293.68 KB,"(37575,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_subjects.npy,.npy,293.68 KB,"(37575,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_y_4cls.npy,.npy,293.68 KB,"(37575,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\seed-iv-clisa-data\features\seed_iv_subjects.npy,.npy,293.68 KB,"(37575,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\seed-iv-clisa-data\features\seed_iv_y_4cls.npy,.npy,293.68 KB,"(37575,)",int64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_channel_correlation.npy,.npy,30.16 KB,"(62, 62)",float64,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub001_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub001_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub001_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub002_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub002_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub002_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub003_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub003_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub003_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub004_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub004_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub004_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub005_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub005_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub005_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub006_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub006_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub006_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub007_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub007_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub007_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub008_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub008_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub008_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub009_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub009_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub009_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub010_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub010_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub010_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub011_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub011_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub011_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub012_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub012_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub012_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub013_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub013_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub013_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub014_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub014_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub014_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub015_ses01.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub015_ses02.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\processed\sub015_ses03.npy,.npy,29.19 KB,"(24, 310)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\features\seed_iv_tsne_raw_2000.npy,.npy,15.75 KB,"(2000, 2)",float32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\norm_stats\norm_62ch.npz,.npz,2.91 KB,"mean:(310,):float32 | std:(310,):float32",,"mean, std",ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub001_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub001_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub001_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub002_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub002_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub002_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub003_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub003_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub003_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub004_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub004_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub004_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub005_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub005_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub005_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub006_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub006_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub006_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub007_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub007_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub007_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub008_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub008_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub008_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub009_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub009_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub009_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub010_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub010_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub010_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub011_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub011_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub011_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub012_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub012_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub012_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub013_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub013_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub013_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub014_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub014_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub014_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub015_ses01.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub015_ses02.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS
+C\webapp\neurosync_webapp\neurosync\data\ground_truth\sub015_ses03.npy,.npy,224.00 B,"(24,)",int32,,ok,,EXCLUDE_FROM_GITHUB_OR_USE_RELEASE/LFS_IF_LICENSE_ALLOWS

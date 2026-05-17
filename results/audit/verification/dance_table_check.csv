@@ -1,0 +1,5 @@
+columns,contains_0_5190,contains_0_6170,file,note,rows,status
+14,False,False,results/final_tables/table_5_3_dance_loso_verified.csv,Use LOSO verified table for manuscript; reproduction table is historical/cautionary.,2,OK
+6,False,True,results/final_tables/table_5_3b_dance_reproduction.csv,Use LOSO verified table for manuscript; reproduction table is historical/cautionary.,4,OK
+7,False,False,results/aggregates/loso/dance_loso.csv,Use LOSO verified table for manuscript; reproduction table is historical/cautionary.,90,OK
+10,False,True,results/aggregates/phaseB_reproduction/phaseB_reproduce_results.csv,Use LOSO verified table for manuscript; reproduction table is historical/cautionary.,1,OK

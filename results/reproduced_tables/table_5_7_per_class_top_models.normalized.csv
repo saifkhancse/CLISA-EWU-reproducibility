@@ -1,0 +1,21 @@
+model id,name,ch,source,f1 neutral,f1 sad,f1 fear,f1 happy
+M01,LDA,62ch,classical_summary,0.4633,0.3976,0.3581,0.3998
+M01,LDA,6ch,classical_summary,0.5123,0.4218,0.3288,0.4752
+M02,SVM (RBF),62ch,classical_summary,0.5617,0.4841,0.3907,0.4687
+M02,SVM (RBF),6ch,classical_summary,0.3890,0.3598,0.2689,0.3904
+M03,Random Forest,62ch,classical_summary,0.4715,0.4850,0.4186,0.4840
+M03,Random Forest,6ch,classical_summary,0.4445,0.4272,0.3388,0.4051
+M04,k-NN,62ch,classical_summary,0.3009,0.3728,0.3383,0.3510
+M04,k-NN,6ch,classical_summary,0.2962,0.3028,0.2924,0.3247
+M05,Logistic Regression,62ch,classical_summary,0.4627,0.4405,0.3698,0.3861
+M05,Logistic Regression,6ch,classical_summary,0.4842,0.4160,0.3322,0.4706
+M06,Naive Bayes,62ch,classical_summary,0.4173,0.2294,0.4348,0.4349
+M06,Naive Bayes,6ch,classical_summary,0.4114,0.3232,0.3037,0.4653
+M07,Extra Trees,62ch,classical_summary,0.4929,0.4926,0.4161,0.4851
+M07,Extra Trees,6ch,classical_summary,0.4338,0.4440,0.3370,0.4155
+M08,Gradient Boosting,62ch,classical_summary,0.5073,0.5080,0.4142,0.4767
+M08,Gradient Boosting,6ch,classical_summary,0.4537,0.4134,0.3784,0.4151
+M09,XGBoost,62ch,classical_summary,0.4933,0.5216,0.4153,0.4862
+M09,XGBoost,6ch,classical_summary,0.4527,0.3969,0.3711,0.4149
+M10,MLP (sklearn),62ch,classical_summary,0.5406,0.4823,0.3949,0.4983
+M10,MLP (sklearn),6ch,classical_summary,0.4173,0.4142,0.3313,0.4282

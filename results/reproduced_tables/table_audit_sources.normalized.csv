@@ -1,0 +1,9 @@
+output,source,role,status
+table_5_1,classical_ml_summary.csv,primary,1.000
+table_5_2,M11-M24 per-model CSVs + master,primary+audit,1.000
+table_5_3,M25_62ch + M26_6ch summaries,primary,1.000
+table_5_3b,phaseB_reproduce_results.csv,primary,1.000
+table_5_4,ablations_partial_summary.csv,primary,1.000
+table_5_5,derived from table_5_2 + table_5_3,derived,1.000
+table_5_6,derived from paired 62ch/6ch,derived,1.000
+table_5_7,classical_summary + optional deep,partial,1.000

@@ -1,0 +1,4 @@
+reproduce_tables.py completed
+Tables found: 11
+Tables reproduced OK: 0
+Output: C:\Users\Saif\Desktop\CSE400\CLISA-EWU-reproducibility\results\reproduced_tables

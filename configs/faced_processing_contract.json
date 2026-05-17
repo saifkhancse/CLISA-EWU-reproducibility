@@ -1,0 +1,16 @@
+{
+  "dataset": "FACED",
+  "usage_in_manuscript": "Domain-gap analysis only unless full FACED benchmark is completed and verified.",
+  "raw_channel_description": "FACED may be described as 32-channel in raw dataset documentation.",
+  "processed_feature_representation_observed_in_project": {
+    "file": "faced_X_32ch.npy",
+    "shape": [
+      110208,
+      30,
+      5
+    ],
+    "dtype": "float32",
+    "interpretation": "The processed feature representation used in this project has 30 channels and five frequency bands."
+  },
+  "manuscript_wording": "FACED is described as a 32-channel dataset in the raw dataset documentation, but the processed DE feature file available for this study contains 30 channels; therefore, all FACED domain-gap analyses use the 30-channel processed feature representation."
+}

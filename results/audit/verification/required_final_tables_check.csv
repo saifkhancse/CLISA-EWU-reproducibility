@@ -1,0 +1,10 @@
+columns,error,exists,required_file,rows,status
+12,,True,table_5_1_classical_main.csv,20,OK
+12,,True,table_5_2_deep_main.csv,28,OK
+14,,True,table_5_3_dance_loso_verified.csv,2,OK
+6,,True,table_5_3b_dance_reproduction.csv,4,OK
+9,,True,table_5_4_ablations.csv,11,OK
+5,,True,table_5_5_proto_gain.csv,30,OK
+7,,True,table_5_6_channel_efficiency.csv,25,OK
+8,,True,table_5_7_per_class_top_models.csv,20,OK
+4,,True,table_audit_sources.csv,8,OK

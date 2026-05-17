@@ -1,0 +1,8 @@
+# Audit table. Optional assets
+
+Source file: `results/final_tables/audit_discovered_optional_assets.csv`
+
+| type | path | size kb |
+| --- | --- | --- |
+| per_class | results\final_tables\table_5_7_per_class_top_models.csv | 1.363 |
+| tsne | features\seed_iv_tsne_raw_2000.npy | 15.750 |
